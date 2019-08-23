@@ -13,7 +13,7 @@ Hi, I am currently working at Synapsica Technologies as AI Scientist. I am worki
 Badrinath Singhal <br />
 Synapsica Technologies <br />
 Bangalore, India<br />
-Email: [badrinath2602@gmail.com]
+Email: badrinath2602@gmail.com
 
 
 

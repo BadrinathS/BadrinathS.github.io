@@ -31,7 +31,7 @@ permalink: /list50/
  <li>✗ Learn to write good article </li>
  <li>✗ Ask my crush out</li>
  <li>✗ Learn one more language </li>
- <li>✗ Be a organ donor</li>
+ <li>✗ Become a organ donor</li>
  <li>✓ Be humble 
  <li> Be kind
 </ol>

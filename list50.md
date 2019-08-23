@@ -16,6 +16,7 @@ permalink: /list50/
  <li>✗ Perform a instrument at stage in front of audience </li>
  <li>✗ Build a home in Guwahati </li>
  <li>✗ Learn BJJ </li>
+ <li>✗ Visit Big Bang Theory Set </li>
  <li>✗ Meet one to one with Prime Minister of India </li>
  <li>✗ Learn to cook awesome food </li>
  <li>✓ Publish a research paper </li>

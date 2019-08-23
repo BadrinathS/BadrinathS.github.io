@@ -10,7 +10,7 @@ Hi, I am currently working at<a href="https://synapsica.com"> Synapsica Technolo
 
 I have graduated from <a href="https://iitg.ac.in> Indian Institute of Tehnology Guwahati </a> majoring in department of Electronics and Electrical Engineering and minoring in Computer Science and Engineering. Before that I have attended <a href="http://www.kvcrpf.ac.in/"> Kendriya Vidyalaya C.R.P.F. Amerigog </a> for high school.
 
-My updated resume can be found <a href="resume/Resume.pdf"> here </a>https://github.com/BadrinathS/BadrinathS.github.io.
+My updated resume can be found <a href="resume/Resume.pdf"> here </a>.
 
 ## Contact
 

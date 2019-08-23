@@ -17,7 +17,7 @@ My updated resume can be found <a href="resume/Resume.pdf"> here </a>https://git
 Badrinath Singhal <br />
 Synapsica Technologies <br />
 Bangalore, India<br />
-Email: badrinath2602@gmail.com
+Email: badrinath2602@gmail.com <br />
 <a href="https://github.com/BadrinathS">Github</a> <a href="https://linkedin.com/in/badrinath-s"> LinkedIn </a>
 
 

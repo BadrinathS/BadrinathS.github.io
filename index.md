@@ -12,6 +12,8 @@ I have graduated from <a href="https://iitg.ac.in"> Indian Institute of Tehnolog
 
 My updated resume can be found <a href="resume/Resume.pdf"> here </a>.
 
+I am reachable through email or LinkedIn. Feel free to contact me if you want to discuss something, I am also open to collaborations, suggestions (or feedbacks) or if you simply want to talk over coffee. 
+
 ## Contact
 
 Badrinath Singhal <br />

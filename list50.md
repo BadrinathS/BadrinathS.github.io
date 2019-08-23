@@ -28,6 +28,7 @@ permalink: /list50/
  <li>✗ Meet Neil Patric Harris</li>
  <li>✗ Have a date with Emma Watson
  <li>✗ Take my father and brother for a trip to Europe</li>
+ <li>✓ Get fit </li>
  <li>✗ Learn to write good article </li>
  <li>✗ Ask my crush out</li>
  <li>✗ Learn one more language </li>

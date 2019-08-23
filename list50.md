@@ -4,7 +4,7 @@ title: List50
 permalink: /list50/
 ---
 
- ### Things I want to do before I die. Please let me know if you have any recommendation.<br />
+ ### Inspired by <a href="https://huyenchip.com/list-100/">Chip Huyen </a> List 100, I want to list 50 things (for now) I want to do before I die. Please do suggest me if you have something in mind.<br />
 Progress as of Aug 22, 2019: 32.5/80.</p>
 
 <ol>

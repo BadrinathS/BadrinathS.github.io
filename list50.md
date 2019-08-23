@@ -34,5 +34,5 @@ permalink: /list50/
  <li>✗ Learn one more language </li>
  <li>✗ Become a organ donor</li>
  <li>✓ Be humble 
- <li> Be kind
+ <li> Be kind </li>
 </ol>

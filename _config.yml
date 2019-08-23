@@ -5,8 +5,8 @@ sourcecode: "https://badrinaths.github.io/"
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
 
-url: "http://gchauras.github.io"     # the base hostname & protocol for your site
-baseurl: "/much-worse-jekyll-theme"                   # the subpath of your site, e.g. /blog
+url: "http://badrinaths.github.io"     # the base hostname & protocol for your site
+baseurl: "/BadrinathS.github.io"                   # the subpath of your site, e.g. /blog
 
 author:
     name:

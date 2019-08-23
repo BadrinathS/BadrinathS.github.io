@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-{% include image.html url="images/photo.jpg" caption="" max_width="300px" align="right" %}
+{% include image.html url="images/myimage.jpg" caption="" max_width="300px" align="right" %}
 
 Hi, I am currently working at Synapsica Technologies as AI Scientist. I am working in automation of diagnosis process of diseases which can be diagnosed using MRI scans. For example Spinal Stenosis, Listhesis, Disc Herniation etc.
 

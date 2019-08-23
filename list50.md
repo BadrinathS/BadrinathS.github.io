@@ -22,6 +22,7 @@ permalink: /list50/
  <li>✗ Teach at subject/course </li>
  <li>✗ Start a company</li>
  <li>✗ Experience zero gravity </li>
+ <li>✗ Contribute to open source organization </li>
  <li>✗ Be a TED speaker </li>
  <li>✓ Have awesome friends </li>
  <li>✗ Meet Neil Patric Harris</li>

@@ -1,8 +1,10 @@
+---
 layout: page
-title: List 50
+title: List50
 permalink: /list50/
 ---
- <p>Things I want to do before I die. Please let me know if you have any recommendation.<br />
+
+ ### Things I want to do before I die. Please let me know if you have any recommendation.<br />
 Progress as of Aug 22, 2019: 32.5/80.</p>
 
 <ol>

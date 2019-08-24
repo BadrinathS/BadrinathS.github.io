@@ -12,6 +12,4 @@ designed to be hosted at custom domain names.
 
 Both the above are not seminal achievements in science, but they are useful. This theme also supports site analytics including [Statcounter](http://statcounter.com) and major comment providers for blogs.
 
-See it in action [here](http://people.csail.mit.edu/gchauras).
-
 Feel free to send me pull requests with better responsive performance or cleaner HTML/CSS.

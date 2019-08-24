@@ -4,7 +4,6 @@ title: "Introduction to Decision Trees"
 description: "Basics of building a decision tree"
 categories: ["Machine Learning", "Decision Tree", "Entropy"]
 location: "Guwahati, India"
-comments: true
 ---
 In this section we will discuss about what is a decision tree, how its build, Entropy, Information Gain and overfitting.
 <h1> What is a decision tree </h1>

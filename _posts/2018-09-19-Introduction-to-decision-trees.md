@@ -94,9 +94,26 @@ Here
 We will prefer attributes for which information gain is more compared to others.
 
 ## <sub> Example </sub>
-{% include image.html url="/images/sub_example1.png" caption="" max_width="256px" %} {% include image.html url="/images/sub_example2.png" caption="" max_width="256px" %}
+{% include image.html url="/images/sub_example1.png" caption="" max_width="256px" %}
 
 Entropy for 29+ and 35-ve values is 0.99. And by putting the values on the information gain equation we get Gain(S,A1)=0.27 and Gain(S,A2)= 0.12.
 Since Gain for attribute A1 is more than A2 so we prefer A1 for splitting than A2.
 Other than Information Gain, we have other measures to decide which attribute to choose for decision tree, and one such popular measure is <b>GINI Index</b>.
 GINI Index is another measure of node impurity and it defined as
+
+{% include image.html url="/images/Gini_Index.png" caption="" max_width="256px" %}
+
+Here p(c) is the probability of the classes in the data.
+Till now we have looked on examples where attributes have finite values, but this is not always the case, we need to formulate a way so that we can perform splitting on continuous value attributes.
+
+## Continuous Attribute- Binary Split
+
+For continuous attribute
+<ol>
+  <li>Partition the continuous value of attribute A into a discrete set of intervals.</li>
+  <li>Create a new boolean attribute Ac, looking for a threshold c,</li>
+</ol>
+
+{% include image.html url="/images/continous_splitting.png" caption="" max_width="256px" %}
+consider all possible split and find the best cut.
+Obviously this method is computationally intensive, but this is the method we use to split continuous attribute.

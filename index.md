@@ -22,3 +22,5 @@ Bangalore, India<br />
 Email: badrinath2602@gmail.com <br />
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="badrinath-s"><a class="LI-simple-link" href='https://in.linkedin.com/in/badrinath-s?trk=profile-badge'>Badrinath Singhal</a></div>
+
+<iframe src="https://ghbtns.com/github-btn.html?user=shobhit-singh&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe> 

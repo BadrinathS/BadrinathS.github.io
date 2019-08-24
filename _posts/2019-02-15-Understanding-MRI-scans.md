@@ -21,11 +21,12 @@ The <b>sagittal</b> or lateral plane dives the body into left and right halves a
 
 The coronal or frontal planes divide the body into front and back (also called dorsal and ventral or posterior and anterior) sections and are x-y planes.
 <br>
-<img src="/images/coronal_view.jpeg" width="256" height="256">
+{% include image.html url="/images/coronal_view.jpeg" caption="" max_width="100px"%}
+
 
 The transverse planes, also known as the axial or horizontal planes, are parallel to the ground and divide the body into top and bottom parts. The top and bottom sections also called the superior and inferior section s or the cranial (head) and caudal (trial) sections). They are x-z planes. Transverse plane is also called as axial plane.
 <br>
-<img src="/images/axial_view.jpeg" width="256" height="256">
+{% include image.html url="/images/axial_view.jpeg" caption="" max_width="100px"%}
 
 It can be seen that these planes will intersect each other. Depending on the orientation of the plane it can either cut the other plane in 1 line or a trapezium.
 The general 2 types of MRI scans are T1 and T2 scans. T here referes to time constant. To understand the difference between T1 and T2 we need to know how MRI works.

@@ -34,6 +34,6 @@ permalink: /list50/
  <li>✗ Ask my crush out</li>
  <li>✗ Learn one more language </li>
  <li>✗ Become a organ donor</li>
- <li>✓ Be humble 
+ <li>✓ Be humble </li>
  <li> Be kind </li>
 </ol>

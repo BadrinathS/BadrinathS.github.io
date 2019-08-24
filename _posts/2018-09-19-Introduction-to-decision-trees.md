@@ -117,3 +117,35 @@ For continuous attribute
 {% include image.html url="/images/continous_splitting.png" caption="" max_width="256px" %}
 consider all possible split and find the best cut.
 Obviously this method is computationally intensive, but this is the method we use to split continuous attribute.
+
+## Practical Issues of Classification
+
+<ol>
+  <li>Underfitting and Overfitting.</li>
+  <li>Missing Values</li>
+  <li>Cost of Classification</li>
+</ol>
+
+## <sub> Overfitting </sub>
+
+A hypothesis h is said to overfit the training data if there is another hypothesis h’ such that h’ has more error on training data than h but h’ have fewer errors on test data than h. Or we say that when hypothesis h starts to fit noise in the training data then we say that it started to overfit the data.
+
+## <sub> Avoiding overfitting in decision tree </sub>
+
+<ol>
+  <li> <b>Prepruning:</b> Stop growing tree when data split is not statistically significant. Or to put it in another way, we stop splitting when Gain is not significantly positive (or statistically significant).</li>
+  <li> <b>Postpruning:</b> Grow full tree then remove nodes. For this we need validation set to evaluate error of decision tree. In this we first grow full tree (T) and take a subtree (T1) on the full tree. Now for using the validation set we evaluate error(T) and error(T-T1). If error(T-T1) is less than error(T) then the subtree T1 is our candidate for removal. Similarly we can have many subtree on a given tree and we need to evaluate the same for them to remove the subtree.</li>
+</ol>
+
+## <sub>Reduced Error Pruning</sub>
+
+It is one of the algorithms for post pruning. 
+<ul>
+  <li>Partition data into training and validation set.</li>
+  <li>Build a complete tree over a training set.</li>
+  <li>Until accuracy on validation set decreases what we do is, for each non leaf node in the tree we temporarily prune the tree and replace it with majority vote, then we test the accuracy of the hypothesis on the validation set. Then we permanently prune the tree with greatest increase in accuracy in validation set.</li>
+</ul>
+
+There method use less data to grow a tree which is one of the cons of the method.
+In this post we learned what is a decision tree, how to grow a decision tree, criteria used to build a decision tree and how to avoid over-fitting the decision tree.
+Please comment if you find something wrong on the post or you find something difficult to understand. Also I haven’t revised the content before posting so let me know where things don’t make any sense.I am aware my writing skills are not good so I would appreciate your feedback.

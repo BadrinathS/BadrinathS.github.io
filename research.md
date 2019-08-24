@@ -40,6 +40,86 @@ pubs:
     #    - name: "IMDB"
     #      url:  "http://www.imdb.com/title/tt0133093/"
 
+
+
+projects:
+
+    - title:   "Synapsica Spindle"
+    #  author:  "Uddeshya Upadhyay, Badrinath Singhal, Meenakshi Singh"
+    # conference: "Internation Joint Conference on Neural Networks"
+    #  note:    "(presented at Budapest, Hungary)"
+    #  year:    "2019"
+    # url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+    #  doi:     "http://dx.doi.org"
+    #  image:   "/images/Ijcnn_paper_thumbnail.jpg"
+    #  media:
+    #    - name: "Talk"
+    #      url:  "https://drive.google.com/open?id=1uSlK-YbxPpXahhAKOOF0B_HHH4uay_i0"
+
+    - title:   "Efficient VLSI Implementation of SVD using CORDIC"
+    #  author:  "Shashank Anil Huddedar, Mayank Kagliwal, Badrinath Singhal and Frank Rhee"
+    #  conference: "World Congress on Computational Intelligence"
+    #  note:    "(presented at Rio, Brazil)"
+    #  year:    "2018"
+    #  url:     "https://ieeexplore.ieee.org/document/8491457"
+    #  doi:     "http://dx.doi.org"
+    #  image:   "/images/fuzzy_paper_thumbnail.png"
+     # media:
+      #  - name: "IMDB"
+      #   url:  "http://www.imdb.com/title/tt0133093/"
+
+    - title:   "Multi IT2 FCM Algorithm"
+    #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
+    #  journal: "Transactions on Black Magic"
+    #  note:    "(presented at Oz)"
+    #  year:    "2014"
+    #  url:     "http://publish-more-stuff.org"
+    #  doi:     "http://dx.doi.org"
+    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
+    #  media:
+    #    - name: "IMDB"
+    #      url:  "http://www.imdb.com/title/tt0133093/"
+    
+    
+    - title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"
+    #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
+    #  journal: "Transactions on Black Magic"
+    #  note:    "(presented at Oz)"
+    #  year:    "2014"
+    #  url:     "http://publish-more-stuff.org"
+    #  doi:     "http://dx.doi.org"
+    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
+    #  media:
+    #    - name: "IMDB"
+    #      url:  "http://www.imdb.com/title/tt0133093/"
+  
+  
+    - title:   "Autonomous Intelligent Robot"
+    #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
+    #  journal: "Transactions on Black Magic"
+    #  note:    "(presented at Oz)"
+    #  year:    "2014"
+    #  url:     "http://publish-more-stuff.org"
+    #  doi:     "http://dx.doi.org"
+    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
+    #  media:
+    #    - name: "IMDB"
+    #      url:  "http://www.imdb.com/title/tt0133093/"
+    
+
+    - title:   "Image Processing Algorithms implementation"
+    #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
+    #  journal: "Transactions on Black Magic"
+    #  note:    "(presented at Oz)"
+    #  year:    "2014"
+    #  url:     "http://publish-more-stuff.org"
+    #  doi:     "http://dx.doi.org"
+    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
+    #  media:
+    #    - name: "IMDB"
+    #      url:  "http://www.imdb.com/title/tt0133093/"
+
+
 ---
 
 ## Publications (peer reviewed)
@@ -62,12 +142,26 @@ pubs:
 <hr>
 
 ## Projects
+{% assign thumbnail="left" %}
 
-<ul>
-    <li><b><u>Synapsica Spindle:</u></b><br> This project is for performing diagnosing spinal stenosis </li>
-    <li><b><u>Efficient VLSI Implementation of SVD using CORDIC</u></b></li>
-    <li><b><u>Multi IT2 FCM Algorithm</u></b></li>
-    <li><b><u>Pattern Recognition and Machine Learning (PRML) algorithm implementation</u></b></li>
-    <li><b><u>Autonomous Intelligent Robot</u></b></li>
-    <li><b><u>Image Processing Algorithms implementation</u></b></li>
-</ul>
+{% for pub in page.pubs %}
+{% if pub.image %}
+{% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
+{% endif %}
+[**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
+{{pub.author}}<br />
+*{{pub.journal}}*
+{% if pub.note %} *({{pub.note}})*
+{% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+{% if pub.media %}<br />Media: {% for article in pub.media %}[[{{article.name}}]({{article.url}})]{% endfor %}{% endif %}
+
+{% endfor %}
+
+#<ul>
+#    <li><b><u>Synapsica Spindle:</u></b><br> This project is for performing diagnosing spinal stenosis </li>
+#    <li><b><u>Efficient VLSI Implementation of SVD using CORDIC</u></b></li>
+#    <li><b><u>Multi IT2 FCM Algorithm</u></b></li>
+#    <li><b><u>Pattern Recognition and Machine Learning (PRML) algorithm implementation</u></b></li>
+#    <li><b><u>Autonomous Intelligent Robot</u></b></li>
+#    <li><b><u>Image Processing Algorithms implementation</u></b></li>
+#</ul>

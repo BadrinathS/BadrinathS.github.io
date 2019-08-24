@@ -30,11 +30,15 @@ Why do we choose non linear transformation? I will leave this to reader to ponde
 If you have read about <a href="https://en.wikipedia.org/wiki/Support-vector_machine" target="_blank">support vector machines</a> you would know that we are trying to minimize the objective function subject to various conditions. We apply <a href="https://en.wikipedia.org/wiki/Karush%E2%80%93Kuhn%E2%80%93Tucker_conditions" target="_blank"> KKT conditions </a> to simplify the objective.
 
 In the dual optimization problem we have below expression
+<br>
 {% include image.html url="/images/dual_optimization.png" caption="" max_width="100px" align="right" %}
+<br>
 Here w and b is the weight and bias vector. The zeta, lambda and mu is used in KKT conditions for constraints.
 <br><br>
-So now we change the SVM optimization problem to dual problem, which then looks like this
+So now we change the SVM optimization problem to dual problem, which then looks like this.
+<br>
 {% include image.html url="/images/svm_optimization.png" caption="" max_width="100px" align="right" %}
+<br>
 In this expression we see the term x_i*x_j (its little tough to write mathematical expression in Medium), so that is the term where we use the trick. That term represents the dot product of the vector x_i and x_j.
 <br>
 <br>

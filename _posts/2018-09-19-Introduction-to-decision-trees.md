@@ -61,10 +61,34 @@ First we will look at criteria when to stop splitting decision tree, then we wil
   <li>We should also stop splitting if we have too few examples to split on. Here few is a subjective term and its up-to user to decide how many examples are too few for them.</li>
 </ol>
 
-<b> Which attribute to split on </b>
-<br>
-<br>
+## <sub> Which attribute to split on </sub>
+
 Earlier we have discussed about bias criteria which says that we prefer smaller decision trees, so we can think of a heuristic method of choosing an attribute so that based on that attribute the decision tree is expected to be smaller.
 One way to choose the attribute is to choose an attribute splitting among which gives smallest error. For example if we choose an attribute and split the training data, we will have new nodes with subset of training data and if that subset of training data have mixture of target value then we would prefer to split on attribute such the the new nodes have few mixtures of target value i.e. one type of target value should be more dominating than other.
 We have few mathematical measures based on which we decide which attribute to choose at a particular node, and out of that few we will discuss about <b>Entropy</b> and <b>Information Gain</b>.
 
+## <sub> Entropy(S) </sub>
+Entropy is a measure of purity or a measure of uncertainty.
+{% include image.html url="/images/Entropy_equation.png" caption="" max_width="256px" %}
+S is the sample set or the training set over which we will evaluate entropy.
+P+ is the proportion of positive examples
+P- is proportion of negative examples.
+Entropy is 0 if outcome is certain and maximum if any outcome is equally probable.
+
+## <sub> Information Gain </sub>
+Expected reduction in entropy due to partitioning S on attribute A
+<ol>
+  <li>Measures how well a given attribute separates the training examples according to their target classification.</li>
+  <li>This measure is used to select among the candidate attributes at each step while growing the tree.</li>
+  <li>Gain is measure of how much we can reduce uncertainty.</li>
+</ol>
+{% include image.html url="/images/information_gain.png" caption="" max_width="256px" %}
+
+Here
+<ul>
+  <li>A is attribute over which splitting occurs.</li>
+  <li>Values(A) are the different values taken by attribute A</li>
+  <li>Sv/S is the fraction of data with attribute A=v.</li>
+</ul>
+
+We will prefer attributes for which information gain is more compared to others.

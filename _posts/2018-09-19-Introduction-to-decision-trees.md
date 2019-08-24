@@ -50,11 +50,11 @@ Here we have 3 questions,
   <li>When to stop splitting the tree.</li>
 </ol>
 
-## <small> Learning Decision Tree</small>
+## Learning Decision Tree
 
 First we will look at criteria when to stop splitting decision tree, then we will move on to learn which attribute to split on.
 
-<b>When to stop </b>
+## <sub>When to stop </sub>
 <ol>
   <li>When we have exhausted all the attributes and we don’t have any attributes to split on then we stop the splitting because we have no opther option.</li>
   <li>When all the examples of the node have same target value then we can stop the splitting.</li>

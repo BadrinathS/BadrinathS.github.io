@@ -61,4 +61,8 @@ pubs:
 
 <hr>
 
+## Projects
 
+<ul>
+    <li><b><u>Synapsica Spindle:</u></b><br> This project is for performing diagnosing spinal stenosis </li>
+</ul>

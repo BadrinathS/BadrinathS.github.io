@@ -5,6 +5,9 @@ permalink: /
 ---
 
 {% include image.html url="images/photo.jpg" caption="" max_width="100px" align="right" %}
+<!-- Place this tag in your head or just before your close body tag. Github Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 
 Hi, I am currently working at<a href="https://synapsica.com"> Synapsica Technologies </a> as an AI Scientist. I am working in automation of diagnosis process of diseases which can be diagnosed using MRI scans. For example Spinal Stenosis, Listhesis, Disc Herniation etc. Previously I have worked at <a href="http://fuzzy.hanyang.ac.kr/"> Computer Vision and Fuzzy Systems Lab</a> in Hanyang University advised by Prof. Frank Chung Hoon Rhee. I have worked in the field of Fuzzy logic with focus on Interval Type 2 Fuzzy C Means Clusteing algorithm. Even before that I have worked at<a href="http://sacral.c.u-tokyo.ac.jp/"> Ikegami Lab </a> in The University of Tokyo.
 
@@ -23,4 +26,5 @@ Email: badrinath2602@gmail.com <br />
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="badrinath-s"><a class="LI-simple-link" href='https://in.linkedin.com/in/badrinath-s?trk=profile-badge'>Badrinath Singhal</a></div>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=shobhit-singh&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe> 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/BadrinathS" data-size="large" aria-label="Follow @BadrinathS on GitHub">Follow @BadrinathS</a>

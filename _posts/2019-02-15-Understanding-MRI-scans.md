@@ -16,25 +16,10 @@ The <b>sagittal</b> or lateral plane dives the body into left and right halves a
 
 <div style="display:flex">
      <div style="flex:1;padding-right:5px;">
-          <img src="/images/cervical_view.jpeg" width="256" height="256">
+          <img src="/images/cervical_view.jpeg" width="56" height="56">
      </div>
      <div style="flex:1;padding-left:5px;">
-          <img src="/images/lumbar_view.jpeg" width="256" height="256">
+          <img src="/images/lumbar_view.jpeg" width="56" height="56">
      </div>
 </div>
-.imgContainer{
-    float:left;
-}
-
-<div class="Sagittal View">
-    <div class="imgContainer">
-        <img src="/images/cervical_view.jpeg" height="200" width="200"/>
-        <p>This is Cervical scan</p>
-    </div>
-    <div class="imgContainer">
-        <img class="middle-img" src="/images/lumbar_view.jpeg"/ height="200" width="200"/>
-        <p>This is Lumbar scan</p>
-    </div>
-</div>
-
 {% include test_disqus.html %}

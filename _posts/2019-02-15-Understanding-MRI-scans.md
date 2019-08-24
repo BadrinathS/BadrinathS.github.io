@@ -17,8 +17,8 @@ The <b>sagittal</b> or lateral plane dives the body into left and right halves a
 <div>
   <!--{% include image.html url="/images/cervical_view.jpeg" caption="" max_width="100px"%}
   {% include image.html url="/images/lumbar_view.jpeg" caption="" max_width="100px"%}-->
-  <img src="/images/cervical_view.jpeg"/>
-  <img src="/images/lumbar_view.jpeg"/>
+  <img src="/images/cervical_view.jpeg" width="256" height="256" align="middle"/>
+  <img src="/images/lumbar_view.jpeg" width="256" height="256" align="middle"/>
 </div>
 
 The coronal or frontal planes divide the body into front and back (also called dorsal and ventral or posterior and anterior) sections and are x-y planes.

@@ -22,4 +22,10 @@ It indicates classification of the example or the value of example. So in genera
 
 {% include image.html url="images/Example_decision_tree.png" caption="" max_width="100px" align="right" %}
 
-Consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+This is an example of a decision tree, here Age, Student and Credit Rating Nodes are Decision nodes because they tell you which direction to go in a tree. And all the yes/no nodes are leaf nodes as they tell you the decision.
+
+Now the problem remains is given a training data we have to generate decision tree. It is always possible that for a given training data we can generate many decision trees. So other question which arises is what should be the metric on which we decide to chose a particular decision tree. Like in linear regression we chose equation whose sum of squared error is minimum over the training data, similarly we will find a metric to chose a decision tree.
+By choosing a bias we generally restrict the hypothesis space or we put preference on hypothesis space. Once we have chosen decision tree as hypothesis space we can put preference on it. In general the preference we use are smaller trees. By smaller trees we mean trees with low depth or/and trees with small number of nodes.
+<hr>
+
+## How to recursively build a tree (An example)

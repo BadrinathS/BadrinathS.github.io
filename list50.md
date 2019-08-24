@@ -27,7 +27,7 @@ permalink: /list50/
  <li>✗ Be a TED speaker </li>
  <li>✓ Have awesome friends </li>
  <li>✗ Meet Neil Patric Harris</li>
- <li>✗ Have a date with Emma Watson
+ <li>✗ Have a date with Emma Watson</li>
  <li>✗ Take my father and brother for a trip to Europe</li>
  <li>✓ Get fit </li>
  <li>✗ Learn to write good article </li>

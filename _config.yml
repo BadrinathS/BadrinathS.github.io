@@ -1,6 +1,6 @@
 title: Badrinath Singhal
 description: Academic Website
-sourcecode: "https://badrinaths.github.io/"
+sourcecode: "http://badrinaths.github.io/"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
@@ -43,9 +43,9 @@ analytics:
 # Set 'provider' to false to turn commenting off globally.
 #
 comments:
-    provider: disqus
+    provider:
     disqus:
-      short_name: boneysinghal
+      short_name:
     livefyre:
       site_id:
     intensedebate:

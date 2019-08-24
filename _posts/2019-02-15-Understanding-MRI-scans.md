@@ -32,4 +32,10 @@ The transverse planes, also known as the axial or horizontal planes, are paralle
 
 It can be seen that these planes will intersect each other. Depending on the orientation of the plane it can either cut the other plane in 1 line or a trapezium.
 The general 2 types of MRI scans are T1 and T2 scans. T here referes to time constant. To understand the difference between T1 and T2 we need to know how MRI works.
+
+## Working of MRI
+
+A strong magnetic field is switched on which aligns proton that are normally randomly oriented withing the region of tissue being examined. This alignment of the nuclei is disturbed by applying Radio Frequency(RF) Energy. The RF energy is for an instant and then the disturbed nuclei starts to come back to original position and during that process they emit RF energy. The emitted energy is then captured and processed accordingly to get the image. By varying the sequence of RF pulses applied & collected, different types of images are created.
+Now, the tissues can be characterized by two different relaxation times T1 and T2. <b>T1 (longitudinal relaxation time)</b> is the time constant which determines the rate at which excited protons return to equilibrium. It is a measure of the time taken for spinning protons to realign with the external magnetic field. <b>T2 (transverse relaxation time)</b> is the time constant which determines the rate at which excited protons reach equilibrium or go out of phase with each other. It is a measure of the time taken for spinning protons to lose phase coherence among the nuclei spinning perpendicular to the main field.
+
 {% include test_disqus.html %}

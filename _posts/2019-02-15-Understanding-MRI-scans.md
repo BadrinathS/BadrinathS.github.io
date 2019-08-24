@@ -49,4 +49,23 @@ PixelSpacing returns distance between each pixels in mm in both x and y directio
 <br>
 <br>
 These information is sufficient to get each position w.r.t. to origin of each pixels in image. There are plenty of other features available by pydicom which returns other information (refer to <i><a href="https://pydicom.github.io/pydicom/stable/getting_started.html" target="_blank">pydicom</a></i> documentation). But for this series of post this information will be enough
+
+## Projection of point in MRI plane
+
+How to project a pixel location in image to one of the other plane? Here we will use 3D coordinate geometry to do that.
+<br>
+<br>
+The general idea is to convert that pixel location to (x,y,z) coordinate then use project that coordinate to target plane with direction cosines and point available from ImageOrientationPatient and ImagePositionPatient. Then at last we convert that projected (x,y,z) coordinate to the pixel location.
+<br>
+<br>
+Let’s say we want to find <i>(x,y,z)</i> of pixel <i>(i,j)</i> in dcm file ds. We first find (x,y,z) of pixel (0, j) (call it a)then from that we calculate (x,y,z) of (i,j) (lets call it b).
+<code>
+  a_x = ds.ImagePositionPatient[0] + j*ds.ImageOrientationPatient[0]
+  a_y = ds.ImagePositionPatient[1] + j*ds.ImageOrientationPatient[1]
+  a_z = ds.ImagePositionPatient[2] + j*ds.ImageOrientationPatient[2]
+  b_x = a_x + i*ds.ImageOrientationPatient[3]
+  b_y = a_y + i*ds.ImageOrientationPatient[4]
+  b_z = a_z + i*ds.ImageOrientationPatient[5]
+</code>
+
 {% include test_disqus.html %}

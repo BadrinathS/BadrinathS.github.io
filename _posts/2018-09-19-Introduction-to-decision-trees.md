@@ -50,7 +50,7 @@ Here we have 3 questions,
   <li>When to stop splitting the tree.</li>
 </ol>
 
-## Learning Decision Tree
+## <small> Learning Decision Tree</small>
 
 First we will look at criteria when to stop splitting decision tree, then we will move on to learn which attribute to split on.
 

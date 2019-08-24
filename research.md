@@ -45,6 +45,7 @@ pubs:
 projects:
 
     - title:   "Synapsica Spindle"
+      about: Developed Spindle AI from scratch at Synapsica Technologies. Worked on planes projections of MRI scans, image processing based method for disc detection, measuring spinal canal diameter using deep learning based computer vision method and finally calculating disc herniation.
     #  author:  "Uddeshya Upadhyay, Badrinath Singhal, Meenakshi Singh"
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"

@@ -151,4 +151,4 @@ There method use less data to grow a tree which is one of the cons of the method
 In this post we learned what is a decision tree, how to grow a decision tree, criteria used to build a decision tree and how to avoid over-fitting the decision tree.
 Please comment if you find something wrong on the post or you find something difficult to understand. Also I haven’t revised the content before posting so let me know where things don’t make any sense.I am aware my writing skills are not good so I would appreciate your feedback.
 
-{% include comments.html %}
+{% include test_disqus.html %}

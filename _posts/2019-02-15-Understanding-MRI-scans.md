@@ -62,10 +62,20 @@ Let’s say we want to find <i>(x,y,z)</i> of pixel <i>(i,j)</i> in dcm file ds.
 <br>
 <code>
   a_x = ds.ImagePositionPatient[0] + j*ds.ImageOrientationPatient[0]
+</code>
+<code>
   a_y = ds.ImagePositionPatient[1] + j*ds.ImageOrientationPatient[1]
+</code>
+<code>
   a_z = ds.ImagePositionPatient[2] + j*ds.ImageOrientationPatient[2]
+</code>
+<code>
   b_x = a_x + i*ds.ImageOrientationPatient[3]
+</code>
+<code>
   b_y = a_y + i*ds.ImageOrientationPatient[4]
+</code>
+<code>
   b_z = a_z + i*ds.ImageOrientationPatient[5]
 </code>
 

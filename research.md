@@ -144,7 +144,7 @@ projects:
 ## Projects
 {% assign thumbnail="left" %}
 
-{% for pub in page.pubs %}
+{% for pub in page.projects %}
 {% if pub.image %}
 {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
 {% endif %}

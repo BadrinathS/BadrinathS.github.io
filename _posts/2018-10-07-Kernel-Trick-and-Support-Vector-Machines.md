@@ -21,7 +21,7 @@ Cover’s Theorem state that, A complex pattern-classification problem, cast in 
 <br>
 Or in simple terms, given a set of training data that is not linearly separable, one can transform it into a training set that is linearly separable by mapping it into a possibly higher-dimensional space via some non-linear transformation.
 
-{% include image.html url="/images/cover_theorem.png" caption="" max_width="100px" align="right" %}
+{% include image.html url="/images/cover_theorem.png" caption="" max_width="100px" %}
 
 Why do we choose non linear transformation? I will leave this to reader to ponder upon. (Little hint:- Does linearly transforming training set changes the nature of non linearity it already posses?). This theorem provides hope that every classification can be reduced to simple linearly separable problem. The only thing that we need to take care is to find the appropriate non linear transformation.
 
@@ -31,13 +31,13 @@ If you have read about <a href="https://en.wikipedia.org/wiki/Support-vector_mac
 
 In the dual optimization problem we have below expression
 <br>
-{% include image.html url="/images/dual_optimization.png" caption="" max_width="100px" align="right" %}
+{% include image.html url="/images/dual_optimization.png" caption="" max_width="100px" %}
 <br>
 Here w and b is the weight and bias vector. The zeta, lambda and mu is used in KKT conditions for constraints.
 <br><br>
 So now we change the SVM optimization problem to dual problem, which then looks like this.
 <br>
-{% include image.html url="/images/svm_optimization.png" caption="" max_width="100px" align="right" %}
+{% include image.html url="/images/svm_optimization.png" caption="" max_width="100px" %}
 <br>
 In this expression we see the term x_i*x_j (its little tough to write mathematical expression in Medium), so that is the term where we use the trick. That term represents the dot product of the vector x_i and x_j.
 <br>

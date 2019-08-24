@@ -20,7 +20,7 @@ It indicates classification of the example or the value of example. So in genera
 
 ## Example
 
-{% include image.html url="../images/Example_decision_tree.png" caption="" max_width="100px" align="right" %}
+{% include image.html url="/images/Example_decision_tree.png" caption="" max_width="100px" align="right" %}
 
 This is an example of a decision tree, here Age, Student and Credit Rating Nodes are Decision nodes because they tell you which direction to go in a tree. And all the yes/no nodes are leaf nodes as they tell you the decision.
 
@@ -29,5 +29,5 @@ By choosing a bias we generally restrict the hypothesis space or we put preferen
 <hr>
 
 ## How to recursively build a tree (An example)
-{% include image.html url="../images/Other_example_decision_tree.png" caption="" max_width="256px" align="right" %}
+{% include image.html url="/images/Other_example_decision_tree.png" caption="" max_width="256px" align="right" %}
 Lets say we have training data D and we want to build a tree with it. In the image we can see that we split the training data D at root using attribute A5 and by doing that we get 2 nodes. D1 is the training data with attribute A5 as ‘Y’ and D2 be training data with attribute A5 as ’N’. If we have a node with all training data have same label we stop the tree there or else at each node we have option to either grow the tree or to stop the tree, if we decide to grow the tree we have to further decide which attribute to split the data on. In the image let’s say that D2 have training data will same label so we stop the tree there but at D1 we can grow the tree because it contains the mixture of both the labels (considering training data have 2 labels). Now we have to use another attribute to split the data D1 using attribute A2 (here we are choosing attribute randomly and we will discuss later how to pick a attribute to make tree smaller). In the image D11 is the subset of data D1 which have attribute A2 as ‘Y’ and D12 have attribute A2 as ’N’. Like this we can recursively grow tree.

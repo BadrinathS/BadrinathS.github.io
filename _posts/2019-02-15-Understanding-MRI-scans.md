@@ -15,8 +15,8 @@ MRI machine takes multiple images in 3 different planes (sagittal, coronal and t
 The <b>sagittal</b> or lateral plane dives the body into left and right halves and is an x-z plane. Technically, the sagittal or median plane goes right through the middle between the body’s left and right halves. It is called the sagittal plane because it goes through or is parallel to the sagittal suture, the line running along the top of the skull that marks where the left and right halves of the skull grew together.
 
 <div>
-  <img src="/images/cervical_view.jpeg" width="256" height="256" align="middle"/>
-  <img src="/images/lumbar_view.jpeg" width="256" height="256" align="middle"/>
+  {% include image.html url="/images/cervical_view.jpeg" caption="" max_width="100px"%}
+  {% include image.html url="/images/lumbar_view.jpeg" caption="" max_width="100px"%}
 </div>
 
 The coronal or frontal planes divide the body into front and back (also called dorsal and ventral or posterior and anterior) sections and are x-y planes.

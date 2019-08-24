@@ -65,4 +65,9 @@ pubs:
 
 <ul>
     <li><b><u>Synapsica Spindle:</u></b><br> This project is for performing diagnosing spinal stenosis </li>
+    <li><b><u>Efficient VLSI Implementation of SVD using CORDIC</u></b></li>
+    <li><b><u>Multi IT2 FCM Algorithm</u></b></li>
+    <li><b><u>Pattern Recognition and Machine Learning (PRML) algorithm implementation</u></b></li>
+    <li><b><u>Autonomous Intelligent Robot</u></b></li>
+    <li><b><u>Image Processing Algorithms implementation</u></b></li>
 </ul>

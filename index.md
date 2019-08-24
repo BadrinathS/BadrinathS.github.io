@@ -20,10 +20,5 @@ Badrinath Singhal <br />
 Synapsica Technologies <br />
 Bangalore, India<br />
 Email: badrinath2602@gmail.com <br />
-<iframe style="height:300px; width:300px;" src="https://github.com/BadrinathS">
-<b>IFrame is unavailable here</b>
-</iframe>
-<a href="https://github.com/BadrinathS">Github</a> <a href="https://linkedin.com/in/badrinath-s"> LinkedIn </a>
-
-
-
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="badrinath-s"><a class="LI-simple-link" href='https://in.linkedin.com/in/badrinath-s?trk=profile-badge'>Badrinath Singhal</a></div>

@@ -9,8 +9,8 @@ pubs:
       conference: "Internation Joint Conference on Neural Networks"
       note:    "(presented at Budapest, Hungary)"
       year:    "2019"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
+      url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+    #  doi:     "http://dx.doi.org"
       image:   "/images/Ijcnn_paper_thumbnail.jpg"
       media:
         - name: "Talk"
@@ -22,7 +22,7 @@ pubs:
       note:    "(presented at Rio, Brazil)"
       year:    "2018"
       url:     "https://ieeexplore.ieee.org/document/8491457"
-      doi:     "http://dx.doi.org"
+    #  doi:     "http://dx.doi.org"
       image:   "/images/fuzzy_paper_thumbnail.png"
       media:
       #  - name: "IMDB"

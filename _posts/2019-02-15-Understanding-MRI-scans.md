@@ -42,6 +42,11 @@ Now, the tissues can be characterized by two different relaxation times T1 and T
 
 MRI images are generally available in DICOM format and to deal with DICOM images in python a library named <i><a href="https://pydicom.github.io/pydicom/stable/getting_started.html" target="_blank">pydicom</a></i> is available.
 To read image we use <i>pydicom.dcmread(filepath)</i> function, to store the image as numpy array use <i>pixel_array</i> on return type of dcmread.
+<br>
+<br>
 Since MRI images are taken for diagnostics purpose so just pixels information is not enough, we need more information like what is the area covered by the image, what is the orientation of each planes in 3 dimensional space. These information is helpful to map the image to 3 dimensional space and thus it makes more sense to diagnose with that information.
 PixelSpacing returns distance between each pixels in mm in both x and y direction. ImageOrientationPatient returns direction cosines of the first row and first column (in the direction away from the top left point) with respect to 3 dimensional space and at last ImagePositionPatient returns the x,y and z coordinate (i.e. the position w.r.t. to the origin) of the top left pixel of image.
+<br>
+<br>
+These information is sufficient to get each position w.r.t. to origin of each pixels in image. There are plenty of other features available by pydicom which returns other information (refer to <i><a href="https://pydicom.github.io/pydicom/stable/getting_started.html" target="_blank">pydicom</a></i> documentation). But for this series of post this information will be enough
 {% include test_disqus.html %}

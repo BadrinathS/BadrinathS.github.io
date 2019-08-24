@@ -130,4 +130,14 @@ The (x,y,z) is the projected point in target plane. If you have understood the m
 <br>
 <b>We use this method because the widely circulated matrix multiplication technique used to find the projected point in DICOM doesn’t work. So I had to come up with this long method.</b>
 
+## Reference
+<ol>
+  <li><a href="https://insideradiology.com.au/gadolinium-contrast-medium/" target="_blank">https://www.insideradiology.com.au/gadolinium-contrast-medium/</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Magnetic_resonance_imaging" target="_blank">https://en.wikipedia.org/wiki/Magnetic_resonance_imaging</a></li>
+  <li><a href="https://www.machinedesign.com/medical/what-s-difference-between-sagittal-coronal-and-transverse-planes" target="_blank">https://www.machinedesign.com/medical/what-s-difference-between-sagittal-coronal-and-transverse-planes</a></li>
+  <li><a href="http://casemed.case.edu/clerkships/neurology/web%20neurorad/mri%20basics.htm" target="_blank">http://casemed.case.edu/clerkships/neurology/web%20neurorad/mri%20basics.htm</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/DICOM" target="_blank">https://en.wikipedia.org/wiki/DICOM</a></li>
+  <li><a href="https://pydicom.github.io/pydicom/stable/getting_started.html" target="_blank">https://pydicom.github.io/pydicom/stable/getting_started.html</a></li>
+</ol>
+
 {% include test_disqus.html %}

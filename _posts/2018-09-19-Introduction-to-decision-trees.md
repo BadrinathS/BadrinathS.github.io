@@ -63,6 +63,7 @@ First we will look at criteria when to stop splitting decision tree, then we wil
 
 <b> Which attribute to split on </b>
 <br>
+<br>
 Earlier we have discussed about bias criteria which says that we prefer smaller decision trees, so we can think of a heuristic method of choosing an attribute so that based on that attribute the decision tree is expected to be smaller.
 One way to choose the attribute is to choose an attribute splitting among which gives smallest error. For example if we choose an attribute and split the training data, we will have new nodes with subset of training data and if that subset of training data have mixture of target value then we would prefer to split on attribute such the the new nodes have few mixtures of target value i.e. one type of target value should be more dominating than other.
 We have few mathematical measures based on which we decide which attribute to choose at a particular node, and out of that few we will discuss about <b>Entropy</b> and <b>Information Gain</b>.

@@ -18,4 +18,8 @@ Decision nodes specify a choice or a test based on which we can decide which dir
 
 It indicates classification of the example or the value of example. So in general, given a data we start with root node and based on the test (on decision node) we go to corresponding branch and continue doing that till we reach a leaf node which contains the value (it can be predicted value of example, classification, regression or probability).
 
+## Example
+
+{% include image.html url="images/Example_decision_tree.png" caption="" max_width="100px" align="right" %}
+
 Consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

@@ -17,8 +17,8 @@ The <b>sagittal</b> or lateral plane dives the body into left and right halves a
 <div>
   <!--{% include image.html url="/images/cervical_view.jpeg" caption="" max_width="100px"%}
   {% include image.html url="/images/lumbar_view.jpeg" caption="" max_width="100px"%}-->
-  <img src="/images/cervical_view.jpeg" width="256" height="256" align="middle"/>
-  <img src="/images/lumbar_view.jpeg" width="256" height="256" align="middle"/>
+  <img src="/images/cervical_view.jpeg" width="256" height="256" align="center"/>
+  <img src="/images/lumbar_view.jpeg" width="256" height="256" align="center"/>
 </div>
 
 The coronal or frontal planes divide the body into front and back (also called dorsal and ventral or posterior and anterior) sections and are x-y planes.
@@ -38,4 +38,10 @@ The general 2 types of MRI scans are T1 and T2 scans. T here referes to time con
 A strong magnetic field is switched on which aligns proton that are normally randomly oriented withing the region of tissue being examined. This alignment of the nuclei is disturbed by applying Radio Frequency(RF) Energy. The RF energy is for an instant and then the disturbed nuclei starts to come back to original position and during that process they emit RF energy. The emitted energy is then captured and processed accordingly to get the image. By varying the sequence of RF pulses applied & collected, different types of images are created.
 Now, the tissues can be characterized by two different relaxation times T1 and T2. <b>T1 (longitudinal relaxation time)</b> is the time constant which determines the rate at which excited protons return to equilibrium. It is a measure of the time taken for spinning protons to realign with the external magnetic field. <b>T2 (transverse relaxation time)</b> is the time constant which determines the rate at which excited protons reach equilibrium or go out of phase with each other. It is a measure of the time taken for spinning protons to lose phase coherence among the nuclei spinning perpendicular to the main field.
 
+## Working with DICOM files
+
+MRI images are generally available in DICOM format and to deal with DICOM images in python a library named <i><a href="https://pydicom.github.io/pydicom/stable/getting_started.html" target="_blank">pydicom</a></i> is available.
+To read image we use <i>pydicom.dcmread(filepath)</i> function, to store the image as numpy array use <i>pixel_array</i> on return type of dcmread.
+Since MRI images are taken for diagnostics purpose so just pixels information is not enough, we need more information like what is the area covered by the image, what is the orientation of each planes in 3 dimensional space. These information is helpful to map the image to 3 dimensional space and thus it makes more sense to diagnose with that information.
+PixelSpacing returns distance between each pixels in mm in both x and y direction. ImageOrientationPatient returns direction cosines of the first row and first column (in the direction away from the top left point) with respect to 3 dimensional space and at last ImagePositionPatient returns the x,y and z coordinate (i.e. the position w.r.t. to the origin) of the top left pixel of image.
 {% include test_disqus.html %}

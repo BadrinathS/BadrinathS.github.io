@@ -31,3 +31,28 @@ By choosing a bias we generally restrict the hypothesis space or we put preferen
 ## How to recursively build a tree (An example)
 {% include image.html url="/images/Other_example_decision_tree.png" caption="" max_width="256px" align="right" %}
 Lets say we have training data D and we want to build a tree with it. In the image we can see that we split the training data D at root using attribute A5 and by doing that we get 2 nodes. D1 is the training data with attribute A5 as ‘Y’ and D2 be training data with attribute A5 as ’N’. If we have a node with all training data have same label we stop the tree there or else at each node we have option to either grow the tree or to stop the tree, if we decide to grow the tree we have to further decide which attribute to split the data on. In the image let’s say that D2 have training data will same label so we stop the tree there but at D1 we can grow the tree because it contains the mixture of both the labels (considering training data have 2 labels). Now we have to use another attribute to split the data D1 using attribute A2 (here we are choosing attribute randomly and we will discuss later how to pick a attribute to make tree smaller). In the image D11 is the subset of data D1 which have attribute A2 as ‘Y’ and D12 have attribute A2 as ’N’. Like this we can recursively grow tree.
+
+## Top-Down Induction of Decision Trees ID3
+
+This is a basic framework of decision tree algorithm. At each node we do the following:-
+<ol>
+  <li>A is the best decision attribute for next node.</li>
+  <li>Assign A as decision attribute for node.</li>
+  <li>For each value of A create new descendant</li>
+  <li>Sort training examples to leaf node according to the Lattribute value of the branch (This means split the training examples according to the attribute A chosen above).</li>
+  <li>If all training examples are perfectly classified (same value of target attribute) stop, else iterate over new leaf nodes.</li>
+</ol>
+
+Here we have 3 questions,
+<ol>
+  <li>Given a partial decision tree which node to choose for the above algorithm</li>
+  <li>For a particular node which is the best attribute to choose.</li>
+  <li>When to stop splitting the tree.</li>
+</ol>
+
+## Learning Decision Tree
+
+First we will look at criteria when to stop splitting decision tree, then we will move on to learn which attribute to split on.
+
+<small> ## When to stop </small>
+

@@ -2,6 +2,8 @@
 layout: page
 permalink: /research/
 title: Research
+---
+
 pubs:
 
     - title:   "Spinal Stenosis Detection in MRI using Modular Coordinate Convolutional Attention Networks"

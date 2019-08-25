@@ -9,10 +9,10 @@ permalink: /
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
-Hi, I am currently working at<a href="https://synapsica.com" target="_blank"> Synapsica Technologies </a> as an AI Scientist. I am working in automating the diagnosis process of diseases (like Spinal Stenosis, Listhesis, Disc Herniation etc.) which can be diagnosed using MRI scans. Previously, I have worked at <a href="http://fuzzy.hanyang.ac.kr/" target="_blank"> Computer Vision and Fuzzy Systems Lab</a> in Hanyang University under supervision of Prof. Frank Chung Hoon Rhee. I have worked in the field of Fuzzy logic with focus on "Interval Type 2 Fuzzy C Means Clustering algorithm". 
+Hi, I am currently working at<a href="https://synapsica.com" target="_blank"> Synapsica Technologies </a> as an AI Scientist. I am working in automating the diagnosis process of diseases (like Spinal Stenosis, Listhesis, Disc Herniation etc.) which can be diagnosed using MRI scans. Previously, I have worked at <a href="http://fuzzy.hanyang.ac.kr/" target="_blank"> Computer Vision and Fuzzy Systems Lab</a> in <a href="https://www.hanyang.ac.kr/web/eng" target="_blank">Hanyang University </a> under supervision of Prof. Frank Chung Hoon Rhee. I have worked in the field of Fuzzy logic with focus on "Interval Type 2 Fuzzy C Means Clustering algorithm". 
 <br>
 <br>
-Even before that I have worked at<a href="http://sacral.c.u-tokyo.ac.jp/" target="_blank"> Ikegami Lab </a> in The University of Tokyo.
+Even before that I have worked at<a href="http://sacral.c.u-tokyo.ac.jp/" target="_blank"> Ikegami Lab </a> in <a href="https://www.u-tokyo.ac.jp/en/" target="_blank"> The University of Tokyo</a>.
 
 I have graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute of Tehnology Guwahati </a> majoring in  Electronics and Electrical Engineering and minoring in Computer Science and Engineering. Before that I have attended <a href="http://www.kvcrpf.ac.in/" target="_blank"> Kendriya Vidyalaya C.R.P.F. Amerigog </a> for high school.
 

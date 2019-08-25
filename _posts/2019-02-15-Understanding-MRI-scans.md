@@ -60,13 +60,13 @@ The general idea is to convert that pixel location to (x,y,z) coordinate then us
 <br>
 Let’s say we want to find <i>(x,y,z)</i> of pixel <i>(i,j)</i> in dcm file ds. We first find (x,y,z) of pixel (0, j) (call it a)then from that we calculate (x,y,z) of (i,j) (lets call it b).
 <br>
-<code>
+
+```
+This is a code block
   a_x = ds.ImagePositionPatient[0] + j*ds.ImageOrientationPatient[0]
-</code>
-<br>
-<code>
   a_y = ds.ImagePositionPatient[1] + j*ds.ImageOrientationPatient[1]
-</code>
+
+```
 <br>
 <code>
   a_z = ds.ImagePositionPatient[2] + j*ds.ImageOrientationPatient[2]

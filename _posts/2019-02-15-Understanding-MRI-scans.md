@@ -62,6 +62,9 @@ Let’s say we want to find <i>(x,y,z)</i> of pixel <i>(i,j)</i> in dcm file ds.
 <br>
 
 ```python
+  import pydicom
+  
+  ds = pydicom.dcmread(path_to_dicom_file)
 
   a_x = ds.ImagePositionPatient[0] + j*ds.ImageOrientationPatient[0]
   a_y = ds.ImagePositionPatient[1] + j*ds.ImageOrientationPatient[1]
@@ -74,49 +77,24 @@ Let’s say we want to find <i>(x,y,z)</i> of pixel <i>(i,j)</i> in dcm file ds.
 Now we project (b_x, b_y, b_z) to target plane (ds_trgt))direction cosines of rows and column as dc_r and dc_c.
 <br>
 <div>
-<img src="/images/point.png" width="256" height="256"/>
+{% include image.html url="/images/point.jpg" caption="" max_width="100px"%}
 </div>
 
 <br>
-<code>
-  trgt_x = ds_trgt.ImagePositionPatient[0]
-</code>
-<br>
-<code>
-  trgt_y = ds_trgt.ImagePositionPatient[1]
-</code>
-<br>
-<code>
-  trgt_z = ds_trgt.ImagePositionPatient[2]
-</code>
-<br>
-<code>
-  nrml_vctr = np.cross(dc_r, dc_c)
-</code>
-<br>
-<code>
-  t_denom = np.dot(nrml_vctr, nrml_vctr)
-</code>
-<br>
-<code>
-  t_num = vctr[0]*(trgt_x —b_x[0]) + vctr[1]*(trgt_y — b_y[1]) + vctr[2]*(trgt_z— b_z[2])
-</code>
-<br>
-<code>
-  t= t_num/t_denom
-</code>
-<br>
-<code>
-  x = b_x+ t*normal_vector[0]
-</code>
-<br>
-<code>
-  y = b_y+ t*normal_vector[1]
-</code>
-<br>
-<code>
-  z = b_z+ t*normal_vector[2]
-</code>
+
+```python
+trgt_x = ds_trgt.ImagePositionPatient[0]
+trgt_y = ds_trgt.ImagePositionPatient[1]
+trgt_z = ds_trgt.ImagePositionPatient[2]
+nrml_vctr = np.cross(dc_r, dc_c)
+t_denom = np.dot(nrml_vctr, nrml_vctr)
+t_num = vctr[0]*(trgt_x —b_x[0]) + vctr[1]*(trgt_y — b_y[1]) + vctr[2]*(trgt_z— b_z[2])
+t= t_num/t_denom
+x = b_x+ t*normal_vector[0]
+y = b_y+ t*normal_vector[1]
+z = b_z+ t*normal_vector[2]
+
+```
 
 The (x,y,z) is the projected point in target plane. If you have understood the math then you would know we simply used 3D geometry concepts. We can convert the coordinates to the pixel location using inverse of logic we used to find coordinates from point.
 <br>

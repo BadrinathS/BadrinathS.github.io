@@ -9,7 +9,7 @@ permalink: /
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
-Hi, I am currently working at<a href="https://synapsica.com" target="_blank"> Synapsica Technologies </a> as an AI Scientist. I am working in automation of diagnosis process of diseases (for e.g. Spinal Stenosis, Listhesis, Disc Herniation etc) which can be diagnosed using MRI scans. Previously I have worked at <a href="http://fuzzy.hanyang.ac.kr/" target="_blank"> Computer Vision and Fuzzy Systems Lab</a> in Hanyang University under supervision of Prof. Frank Chung Hoon Rhee. I have worked in the field of Fuzzy logic with focus on "Interval Type 2 Fuzzy C Means Clustering algorithm". 
+Hi, I am currently working at<a href="https://synapsica.com" target="_blank"> Synapsica Technologies </a> as an AI Scientist. I am working in automation of diagnosis process of diseases (like Spinal Stenosis, Listhesis, Disc Herniation etc) which can be diagnosed using MRI scans. Previously I have worked at <a href="http://fuzzy.hanyang.ac.kr/" target="_blank"> Computer Vision and Fuzzy Systems Lab</a> in Hanyang University under supervision of Prof. Frank Chung Hoon Rhee. I have worked in the field of Fuzzy logic with focus on "Interval Type 2 Fuzzy C Means Clustering algorithm". 
 <br>
 <br>
 Even before that I have worked at<a href="http://sacral.c.u-tokyo.ac.jp/" target="_blank"> Ikegami Lab </a> in The University of Tokyo.

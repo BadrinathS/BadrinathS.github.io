@@ -61,29 +61,16 @@ The general idea is to convert that pixel location to (x,y,z) coordinate then us
 Let’s say we want to find <i>(x,y,z)</i> of pixel <i>(i,j)</i> in dcm file ds. We first find (x,y,z) of pixel (0, j) (call it a)then from that we calculate (x,y,z) of (i,j) (lets call it b).
 <br>
 
-```
-This is a code block
+```python
+
   a_x = ds.ImagePositionPatient[0] + j*ds.ImageOrientationPatient[0]
   a_y = ds.ImagePositionPatient[1] + j*ds.ImageOrientationPatient[1]
+  a_z = ds.ImagePositionPatient[2] + j*ds.ImageOrientationPatient[2]
+  b_x = a_x + i*ds.ImageOrientationPatient[3]
+  b_y = a_y + i*ds.ImageOrientationPatient[4]
+  b_z = a_z + i*ds.ImageOrientationPatient[5]
 
 ```
-<br>
-<code>
-  a_z = ds.ImagePositionPatient[2] + j*ds.ImageOrientationPatient[2]
-</code>
-<br>
-<code>
-  b_x = a_x + i*ds.ImageOrientationPatient[3]
-</code>
-<br>
-<code>
-  b_y = a_y + i*ds.ImageOrientationPatient[4]
-</code>
-<br>
-<code>
-  b_z = a_z + i*ds.ImageOrientationPatient[5]
-</code>
-
 Now we project (b_x, b_y, b_z) to target plane (ds_trgt))direction cosines of rows and column as dc_r and dc_c.
 {% include image.html url="/images/point.png" caption="" max_width="100px"%}
 <code>

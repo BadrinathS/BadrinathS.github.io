@@ -45,7 +45,7 @@ pubs:
 projects:
 
     - title:   "Synapsica Spindle"
-      about: Developed Spindle AI from scratch at Synapsica Technologies. Worked on planes projections of MRI scans, image processing based method for disc detection, measuring spinal canal diameter using deep learning based computer vision method and finally calculating disc herniation.
+      about: "Developed Spindle AI from scratch at Synapsica Technologies. Worked on planes projections of MRI scans, image processing based method for disc detection, measuring spinal canal diameter using deep learning based computer vision method and finally calculating disc herniation. Part of out work is published at IEEE IJCNN 2019."
     #  author:  "Uddeshya Upadhyay, Badrinath Singhal, Meenakshi Singh"
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"
@@ -58,11 +58,12 @@ projects:
     #      url:  "https://drive.google.com/open?id=1uSlK-YbxPpXahhAKOOF0B_HHH4uay_i0"
 
     - title:   "Efficient VLSI Implementation of SVD using CORDIC"
+      about: " In this work, we developed a way to calculate SVD of a nxn matrix which consists of operations that can be implemented on VLSI architecture. CORDIC algorithm was used to implement SVD for 2x2 matrix which was further tested in Verilog. For nxn matrix (n>2) we performed series of operations consisting of rotation, shifting, 2x2 SVD to calculate its SVD. We converted each operations such that every operations can be implementated in VLSI architecture. We further tested the approach in Matlab and Verilog.
     #  author:  "Shashank Anil Huddedar, Mayank Kagliwal, Badrinath Singhal and Frank Rhee"
     #  conference: "World Congress on Computational Intelligence"
     #  note:    "(presented at Rio, Brazil)"
     #  year:    "2018"
-    #  url:     "https://ieeexplore.ieee.org/document/8491457"
+     url:     "https://drive.google.com/file/d/1eJkaH5ya5W21vP_sl2sDE4hzz6AFCm7D/view?usp=sharing"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/fuzzy_paper_thumbnail.png"
      # media:

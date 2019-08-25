@@ -47,12 +47,12 @@ pubs:
 projects:
 
     - title:   "Synapsica Spindle"
-      about: Developed Spindle AI from scratch at Synapsica Technologies. Worked on planes projections of MRI scans, image processing based method for disc detection, measuring spinal canal diameter using deep learning based computer vision method and finally calculating disc herniation. Part of out work is published at IEEE IJCNN 2019.
+      about: Developed Spindle AI from scratch at Synapsica Technologies. Worked on planes projections of MRI scans, image processing based method for disc detection, measuring spinal canal diameter using deep learning based computer vision method and finally calculating disc herniation. Part of out work is published at IEEE IJCNN 2019. 
     #  author:  "Uddeshya Upadhyay, Badrinath Singhal, Meenakshi Singh"
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"
     #  year:    "2019"
-    # url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+     url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/Ijcnn_paper_thumbnail.jpg"
     #  media:
@@ -73,11 +73,12 @@ projects:
       #   url:  "http://www.imdb.com/title/tt0133093/"
 
     - title:   "Multi IT2 FCM Algorithm"
+      about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
     #  year:    "2014"
-    #  url:     "http://publish-more-stuff.org"
+      url:     "https://ieeexplore.ieee.org/document/8491457"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
     #  media:
@@ -86,6 +87,7 @@ projects:
     
     
     - title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"
+      about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -99,6 +101,7 @@ projects:
   
   
     - title:   "Autonomous Intelligent Robot"
+      about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -112,6 +115,7 @@ projects:
     
 
     - title:   "Image Processing Algorithms implementation"
+      about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"

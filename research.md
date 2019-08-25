@@ -73,12 +73,12 @@ projects:
       #   url:  "http://www.imdb.com/title/tt0133093/"
 
     - title:   "Multi IT2 FCM Algorithm"
-      about: To be written
+      #about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
     #  year:    "2014"
-      url:     "https://ieeexplore.ieee.org/document/8491457"
+    #  url:     "https://ieeexplore.ieee.org/document/8491457"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
     #  media:
@@ -87,7 +87,7 @@ projects:
     
     
     - title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"
-      about: To be written
+      #about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -101,7 +101,7 @@ projects:
   
   
     - title:   "Autonomous Intelligent Robot"
-      about: To be written
+      #about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -115,7 +115,7 @@ projects:
     
 
     - title:   "Image Processing Algorithms implementation"
-      about: To be written
+      #about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"

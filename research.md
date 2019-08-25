@@ -45,6 +45,7 @@ pubs:
 projects:
 
     - title:   "Detection of Spinal Stenosis from axial MRI scans."
+      about: "Measuring spinal canal diameter in axial image of MRI scan to assist radiologists for diagnosing Spinal Stenosis. Used a network called Co-Unet which is combination of Coordinate Convolution and U-Net to make a two stage architecture. First stage called Attention Network crops out the region contaning spinal canal, second stage called Canal Measurement Network that measures canal diameter. Both the stages uses image segmentation approach which is trained with loss function consisting of MSE and dice loss. Approach was tested on 392 unique axial scans out of which 13 axials have error more than 2mm."
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -58,7 +59,7 @@ projects:
 
 
     - title:   "Listhesis evaluation from sagittal MRI scans"
-      about: "Developed Spindle AI from scratch at Synapsica Technologies. Worked on planes projections of MRI scans, image processing based method for disc detection, measuring spinal canal diameter using deep learning based computer vision method and finally calculating disc herniation."
+      about: ""
     #  author:  "Uddeshya Upadhyay, Badrinath Singhal, Meenakshi Singh"
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"

@@ -71,6 +71,7 @@ projects:
       #   url:  "http://www.imdb.com/title/tt0133093/"
 
     - title:   "Multi IT2 FCM Algorithm"
+      about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -84,6 +85,7 @@ projects:
     
     
     - title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"
+      about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -97,6 +99,7 @@ projects:
   
   
     - title:   "Autonomous Intelligent Robot"
+      about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -110,6 +113,7 @@ projects:
     
 
     - title:   "Image Processing Algorithms implementation"
+      about: To be written
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"

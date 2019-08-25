@@ -49,7 +49,7 @@ projects:
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
-    #  year:    "2014"
+      year:    "2019"
       url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
@@ -63,7 +63,7 @@ projects:
     #  author:  "Uddeshya Upadhyay, Badrinath Singhal, Meenakshi Singh"
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"
-    #  year:    "2019"
+      year:    "2019"
       url:     "https://drive.google.com/open?id=1N7KBbhoRMZ-RvuL-nfamC2RdM_wrqifM"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/Ijcnn_paper_thumbnail.jpg"
@@ -76,7 +76,7 @@ projects:
     #  author:  "Shashank Anil Huddedar, Mayank Kagliwal, Badrinath Singhal and Frank Rhee"
     #  conference: "World Congress on Computational Intelligence"
     #  note:    "(presented at Rio, Brazil)"
-    #  year:    "2018"
+      year:    "2018"
       url:     "https://drive.google.com/file/d/1eJkaH5ya5W21vP_sl2sDE4hzz6AFCm7D/view?usp=sharing"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/fuzzy_paper_thumbnail.png"
@@ -89,7 +89,7 @@ projects:
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
-    #  year:    "2014"
+      year:    "2017"
       url:     "https://ieeexplore.ieee.org/document/8491457"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
@@ -98,7 +98,7 @@ projects:
     #      url:  "http://www.imdb.com/title/tt0133093/"
     
     
-    - title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"
+    #- title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -112,10 +112,11 @@ projects:
   
   
     - title:   "Autonomous Intelligent Robot"
+      about: "Developed a robot based on turtle bot which was capable of mapping the indoor enviornment, locate itself and reach from its current position to goal position avoiding the obstacles in between. We used Robot Operating System (ROS) as a platform to implement the required algorithms, Microsoft Kinect to map the indoor enviornment, DC Servo Motor and Arduino to provide commands to move around. We used RANSAC algorithm to stich the images during mapping purpose and Dijkstra Algorithm for calculating the path to goal position. We further used I2C communication to pass signal to DC Servo Motor "
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
-    #  year:    "2014"
+      year:    "2014"
     #  url:     "http://publish-more-stuff.org"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
@@ -124,7 +125,7 @@ projects:
     #      url:  "http://www.imdb.com/title/tt0133093/"
     
 
-    - title:   "Image Processing Algorithms implementation"
+    #- title:   "Image Processing Algorithms implementation"
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"

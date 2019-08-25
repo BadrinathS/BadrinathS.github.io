@@ -14,7 +14,7 @@ Hi, I am currently working at<a href="https://synapsica.com" target="_blank"> Sy
 <br>
 Even before that I have worked at<a href="http://sacral.c.u-tokyo.ac.jp/" target="_blank"> Ikegami Lab </a> in The University of Tokyo.
 
-I have graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute of Tehnology Guwahati </a> majoring in department of Electronics and Electrical Engineering and minoring in Computer Science and Engineering. Before that I have attended <a href="http://www.kvcrpf.ac.in/" target="_blank"> Kendriya Vidyalaya C.R.P.F. Amerigog </a> for high school.
+I have graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute of Tehnology Guwahati </a> majoring in  Electronics and Electrical Engineering and minoring in Computer Science and Engineering. Before that I have attended <a href="http://www.kvcrpf.ac.in/" target="_blank"> Kendriya Vidyalaya C.R.P.F. Amerigog </a> for high school.
 
 <!--My updated resume can be found <a href="resume/Resume.pdf"> here </a>.-->
 

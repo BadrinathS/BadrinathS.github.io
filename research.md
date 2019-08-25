@@ -63,7 +63,7 @@ projects:
     #  conference: "World Congress on Computational Intelligence"
     #  note:    "(presented at Rio, Brazil)"
     #  year:    "2018"
-    #  url:     "https://ieeexplore.ieee.org/document/8491457"
+    #  url:     "https://drive.google.com/file/d/1eJkaH5ya5W21vP_sl2sDE4hzz6AFCm7D/view?usp=sharing"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/fuzzy_paper_thumbnail.png"
      # media:
@@ -75,7 +75,7 @@ projects:
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
     #  year:    "2014"
-    #  url:     "http://publish-more-stuff.org"
+      url:     "https://ieeexplore.ieee.org/document/8491457"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
     #  media:
@@ -133,7 +133,7 @@ projects:
 {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
 {% endif %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
-{{pub.author}}<br />
+{{pub.about}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
 {% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
@@ -151,7 +151,7 @@ projects:
 {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
 {% endif %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
-{{pub.author}}<br />
+{{pub.a}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
 {% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}

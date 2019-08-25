@@ -50,7 +50,7 @@ projects:
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"
     #  year:    "2019"
-     url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+    # url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/Ijcnn_paper_thumbnail.jpg"
     #  media:
@@ -75,7 +75,7 @@ projects:
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
     #  year:    "2014"
-    #  url:     "https://ieeexplore.ieee.org/document/8491457"
+      url:     "https://ieeexplore.ieee.org/document/8491457"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
     #  media:

@@ -71,6 +71,7 @@ projects:
       #   url:  "http://www.imdb.com/title/tt0133093/"
 
     - title:   "Multi IT2 FCM Algorithm"
+      about: " Integrated Multi-EIASC Algorithm with IT2 Fuzzy C-Means Clustering Algorithm to give Multi-IT2 Fuzzy C-Means Algorithm. Instead of using the EIASC algorithm over each of the dimensions of pattern sets separately, we used Multi-EIASC algorithm for the complete pattern set which uses ndimensionality of pattern sets as its fundamental property"
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"

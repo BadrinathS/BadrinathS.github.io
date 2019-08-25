@@ -50,7 +50,7 @@ projects:
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"
     #  year:    "2019"
-     url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+    # url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/Ijcnn_paper_thumbnail.jpg"
     #  media:
@@ -63,7 +63,7 @@ projects:
     #  conference: "World Congress on Computational Intelligence"
     #  note:    "(presented at Rio, Brazil)"
     #  year:    "2018"
-      url:     "https://drive.google.com/open?id=1eJkaH5ya5W21vP_sl2sDE4hzz6AFCm7D"
+    #  url:     "https://ieeexplore.ieee.org/document/8491457"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/fuzzy_paper_thumbnail.png"
      # media:
@@ -71,12 +71,11 @@ projects:
       #   url:  "http://www.imdb.com/title/tt0133093/"
 
     - title:   "Multi IT2 FCM Algorithm"
-      about: "To be written"
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
     #  year:    "2014"
-      url:     "https://ieeexplore.ieee.org/document/8491457"
+    #  url:     "http://publish-more-stuff.org"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
     #  media:
@@ -85,7 +84,6 @@ projects:
     
     
     - title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"
-      about: "To be written"
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -99,7 +97,6 @@ projects:
   
   
     - title:   "Autonomous Intelligent Robot"
-      about: "To be written"
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -113,7 +110,6 @@ projects:
     
 
     - title:   "Image Processing Algorithms implementation"
-      about: "To be written"
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
@@ -155,7 +151,7 @@ projects:
 {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
 {% endif %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
-{{pub.about}}<br />
+{{pub.author}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
 {% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}

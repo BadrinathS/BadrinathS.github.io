@@ -44,13 +44,26 @@ pubs:
 
 projects:
 
-    - title:   "Synapsica Spindle"
+    - title:   "Detection of Spinal Stenosis from axial MRI scans."
+    #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
+    #  journal: "Transactions on Black Magic"
+    #  note:    "(presented at Oz)"
+    #  year:    "2014"
+      url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+    #  doi:     "http://dx.doi.org"
+    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
+    #  media:
+    #    - name: "IMDB"
+    #      url:  "http://www.imdb.com/title/tt0133093/"
+
+
+    - title:   "Listhesis evaluation from sagittal MRI scans"
       about: "Developed Spindle AI from scratch at Synapsica Technologies. Worked on planes projections of MRI scans, image processing based method for disc detection, measuring spinal canal diameter using deep learning based computer vision method and finally calculating disc herniation."
     #  author:  "Uddeshya Upadhyay, Badrinath Singhal, Meenakshi Singh"
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"
     #  year:    "2019"
-      url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+    #  url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/Ijcnn_paper_thumbnail.jpg"
     #  media:

@@ -1,4 +1,4 @@
-# Much-Worse jekyll theme
+# My Website
 
 This theme is avaiable under [MIT License](https://opensource.org/licenses/MIT).
 

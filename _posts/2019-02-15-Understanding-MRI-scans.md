@@ -72,7 +72,7 @@ Let’s say we want to find <i>(x,y,z)</i> of pixel <i>(i,j)</i> in dcm file ds.
 
 ```
 Now we project (b_x, b_y, b_z) to target plane (ds_trgt))direction cosines of rows and column as dc_r and dc_c.
-{% include image.html url="/images/point.png" caption="" max_width="100px"%}
+{% include image.html url="/images/point.png" heoght="256" caption="" max_width="100px"%}
 <code>
   trgt_x = ds_trgt.ImagePositionPatient[0]
 </code>

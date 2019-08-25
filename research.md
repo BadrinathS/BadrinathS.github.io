@@ -64,7 +64,7 @@ projects:
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"
     #  year:    "2019"
-    #  url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+      url:     "https://drive.google.com/open?id=1N7KBbhoRMZ-RvuL-nfamC2RdM_wrqifM"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/Ijcnn_paper_thumbnail.jpg"
     #  media:

@@ -73,11 +73,8 @@ Let’s say we want to find <i>(x,y,z)</i> of pixel <i>(i,j)</i> in dcm file ds.
 ```
 Now we project (b_x, b_y, b_z) to target plane (ds_trgt))direction cosines of rows and column as dc_r and dc_c.
 <br>
-
->> {% include image.html url="/images/point.png" height="256" caption=""%}<<
-
 <div>
-<img src="/images/point.png" width="256"/>
+<img src="/images/point.png" width="256" height="256"/>
 </div>
 
 <br>

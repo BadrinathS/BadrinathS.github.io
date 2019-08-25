@@ -59,7 +59,7 @@ projects:
 
 
     - title:   "Listhesis evaluation from sagittal MRI scans"
-      about: ""
+      about: "We diagnose Listhesis in MRI scan using the sagittal scan. Vertebrae is detected in sagittal scan using YOLO v3 detector, we further crop out each vertebrae and train a CNN based points regresser to fit 6 points at the border of vertebrae. With the border available we calculate vertebrae slippage with the available 6 points, based on the slippage and combining it with other factors such as spine curvature, disc protusion we diagnose the degree of listhesis (if any) in the patient. When evaluated listhesis and compared with previous works, the 6 points approach showed better results compared to the approach mentioned in previous works. Part of our work is documented and made available."
     #  author:  "Uddeshya Upadhyay, Badrinath Singhal, Meenakshi Singh"
     # conference: "Internation Joint Conference on Neural Networks"
     #  note:    "(presented at Budapest, Hungary)"

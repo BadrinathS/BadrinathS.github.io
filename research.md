@@ -81,8 +81,8 @@ projects:
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/fuzzy_paper_thumbnail.png"
      # media:
-      #  - name: "IMDB"
-      #   url:  "http://www.imdb.com/title/tt0133093/"
+        - name: "Github"
+      `   url:  "https://github.com/BadrinathS/Efficient-VLSI-Implementation-of-SVD"
 
     - title:   "Multi IT2 FCM Algorithm"
       about: " Integrated Multi-EIASC Algorithm with IT2 Fuzzy C-Means Clustering Algorithm to give Multi-IT2 Fuzzy C-Means Algorithm. Instead of using the EIASC algorithm over each of the dimensions of pattern sets separately, we used Multi-EIASC algorithm for the complete pattern set which uses ndimensionality of pattern sets as its fundamental property"
@@ -94,8 +94,8 @@ projects:
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
     #  media:
-    #    - name: "IMDB"
-    #      url:  "http://www.imdb.com/title/tt0133093/"
+        - name: "Github"
+          url:  "https://github.com/BadrinathS/Multi-IT2-FCM"
     
     
     #- title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"

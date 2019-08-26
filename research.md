@@ -93,9 +93,9 @@ projects:
       url:     "https://ieeexplore.ieee.org/document/8491457"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
-      #media:
-        #- name: "Talk"
-          #url:  "https://drive.google.com/open?id=1uSlK-YbxPpXahhAKOOF0B_HHH4uay_i0"
+      media:
+        - name: "Github"
+          #url:  "https://github.com/BadrinathS/Multi-IT2-FCM"
     
     
     #- title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"

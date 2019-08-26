@@ -55,7 +55,7 @@ projects:
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
       media:
         - name: "Github"
-    #      url:  "https://github.com/BadrinathS/Spinal_Canal_Measurement"
+          url:  "https://github.com/BadrinathS/Spinal_Canal_Measurement"
 
 
     - title:   "Listhesis evaluation from sagittal MRI scans"

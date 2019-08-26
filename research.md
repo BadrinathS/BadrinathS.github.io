@@ -80,7 +80,7 @@ projects:
       url:     "https://drive.google.com/file/d/1eJkaH5ya5W21vP_sl2sDE4hzz6AFCm7D/view?usp=sharing"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/fuzzy_paper_thumbnail.png"
-      code:
+      media:
         - name: "Github"
           url:  "https://github.com/BadrinathS/Efficient-VLSI-Implementation-of-SVD"
 
@@ -93,7 +93,7 @@ projects:
       url:     "https://ieeexplore.ieee.org/document/8491457"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
-      code:
+      media:
         - name: "Github"
           #url:  "https://github.com/BadrinathS/Multi-IT2-FCM"
     
@@ -171,7 +171,7 @@ projects:
 {{pub.journal}}
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {{pub.year}} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
-{% if pub.code %}<br />Media: {% for article in pub.media %}[[{{article.name}}]({{article.url}})]{% endfor %}{% endif %}
+{% if pub.media %}<br />Code: {% for article in pub.media %}[[{{article.name}}]({{article.url}})]{% endfor %}{% endif %}
 
 {% endfor %}
 

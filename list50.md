@@ -23,7 +23,7 @@ permalink: /list50/
  <li>✗ Teach at subject/course </li>
  <li>✗ Start a company</li>
  <li>✗ Experience zero gravity </li>
- <li>✗ Contribute to open source organization </li>
+ <li>✓ Contribute to open source organization </li>
  <li>✗ Be a TED speaker </li>
  <li>✓ Have awesome friends </li>
  <li>✗ Meet Neil Patric Harris</li>
@@ -32,7 +32,7 @@ permalink: /list50/
  <li>✗ Take my father and brother for a trip to Europe</li>
  <li>✓ Get fit </li>
  <li>✗ Learn to write good article </li>
- <li>✗ Ask my crush out</li>
+ <li>✗ Ask a stranger out</li>
  <li>✗ Learn one more language </li>
  <li>✗ Become a organ donor</li>
  <li>✓ Be humble </li>

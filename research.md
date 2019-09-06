@@ -27,6 +27,19 @@ pubs:
       media:
       #  - name: "IMDB"
       #   url:  "http://www.imdb.com/title/tt0133093/"
+      
+      
+    - title:   "Spondylolisthesis Grading in sagittal MRI scans using convolutional neural networks"
+      author:  "Badrinath Singhal, Meenakshi Singh, Vivek Kumaran"
+      conference: "Association for the Advancement of Artificial Intelligence"
+      note:    "(Submitted)"
+      year:    "2019"
+    #  url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+    #  doi:     "http://dx.doi.org"
+      image:   "/images/C6_4points.jpg"
+    # media:
+    #    - name: "Talk"
+    #      url:  "https://drive.google.com/open?id=1uSlK-YbxPpXahhAKOOF0B_HHH4uay_i0"
 
     #- title:   "Paper title in 3-7 words that sound like Clingon"
     #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"

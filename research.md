@@ -163,7 +163,7 @@ projects:
 {% endif %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
-*{{pub.journal}}*
+*{{pub.conference}}*
 {% if pub.note %} *({{pub.note}})*
 {% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
 {% if pub.media %}<br />Media: {% for article in pub.media %}[[{{article.name}}]({{article.url}})]{% endfor %}{% endif %}

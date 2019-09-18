@@ -13,7 +13,7 @@ pubs:
     #  doi:     "http://dx.doi.org"
       image:   "/images/Ijcnn_paper_thumbnail.jpg"
       media:
-        - name: "Presentation"
+        - name: "Talk"
           url:  "/resume/IJCNN19_Synapsica_Presentation.pdf"
 
     - title:   "Performance Analysis of a Novel IT2 FCM Algorithm"

@@ -21,7 +21,7 @@ pubs:
       conference: "World Congress on Computational Intelligence"
       note:    "Rio, Brazil"
       year:    "2018"
-      url:     "https://ieeexplore.ieee.org/document/8491457"
+      url:     "/resume/IEEE_WCCI2018.pdf"
     #  doi:     "http://dx.doi.org"
       image:   "/images/fuzzy_paper_thumbnail.png"
       media:

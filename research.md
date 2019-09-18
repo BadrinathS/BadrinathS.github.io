@@ -13,8 +13,8 @@ pubs:
     #  doi:     "http://dx.doi.org"
       image:   "/images/Ijcnn_paper_thumbnail.jpg"
       media:
-        - name: "Talk"
-          url:  "https://drive.google.com/open?id=1uSlK-YbxPpXahhAKOOF0B_HHH4uay_i0"
+        - name: "Presentation"
+          url:  "/resume/IJCNN19_Synapsica_Presentation.pdf"
 
     - title:   "Performance Analysis of a Novel IT2 FCM Algorithm"
       author:  "Shashank Anil Huddedar, Mayank Kagliwal, Badrinath Singhal and Frank Rhee"

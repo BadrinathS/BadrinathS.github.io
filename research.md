@@ -26,7 +26,7 @@ pubs:
       image:   "/images/fuzzy_paper_thumbnail.png"
       media:
         - name: "Talk"
-      #   url:  "/resume/wcci_fuzzy.pdf"
+          url:  "/resume/wcci_fuzzy.pdf"
       
       
     - title:   "Spondylolisthesis Grading in sagittal MRI scans using convolutional neural networks"

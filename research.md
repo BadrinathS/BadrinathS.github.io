@@ -25,8 +25,8 @@ pubs:
     #  doi:     "http://dx.doi.org"
       image:   "/images/fuzzy_paper_thumbnail.png"
       media:
-      #  - name: "IMDB"
-      #   url:  "http://www.imdb.com/title/tt0133093/"
+        - name: "Talk"
+      #   url:  "/resume/wcci_fuzzy.pdf"
       
       
     - title:   "Spondylolisthesis Grading in sagittal MRI scans using convolutional neural networks"

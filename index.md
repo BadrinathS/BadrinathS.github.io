@@ -19,7 +19,7 @@ During my junior year, I worked at <a href="http://fuzzy.hanyang.ac.kr/" target=
 
 <!--My updated resume can be found <a href="resume/Resume.pdf"> here </a>.-->
 
-Feel free to contact me if you want to discuss something, I am also open to collaboration and suggestions through email or LinkedIn.
+Feel free to contact me if you want to discuss something or meet over coffee, I am also open to collaboration and suggestions through email or LinkedIn.
 
 ## Contact:
 

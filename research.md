@@ -63,7 +63,7 @@ projects:
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
       year:    "2019"
-      url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+    #  url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
       media:
@@ -90,7 +90,7 @@ projects:
     #  conference: "World Congress on Computational Intelligence"
     #  note:    "(presented at Rio, Brazil)"
       year:    "2018"
-      url:     "https://drive.google.com/file/d/1eJkaH5ya5W21vP_sl2sDE4hzz6AFCm7D/view?usp=sharing"
+    #  url:     "https://drive.google.com/file/d/1eJkaH5ya5W21vP_sl2sDE4hzz6AFCm7D/view?usp=sharing"
     #  doi:     "http://dx.doi.org"
     #  image:   "/images/fuzzy_paper_thumbnail.png"
       media:
@@ -103,7 +103,7 @@ projects:
     #  journal: "Transactions on Black Magic"
     #  note:    "(presented at Oz)"
       year:    "2017"
-      url:     "https://ieeexplore.ieee.org/document/8491457"
+    #  url:     "https://ieeexplore.ieee.org/document/8491457"
     #  doi:     "http://dx.doi.org"
     #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
       media:

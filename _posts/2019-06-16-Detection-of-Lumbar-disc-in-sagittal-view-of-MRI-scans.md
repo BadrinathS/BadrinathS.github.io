@@ -26,6 +26,13 @@ When we get MRI scan of a patient, we get images from all 3 planes, so by using 
 
 So using that lines, we have information of orientation of all the lumbar disc and vertebrae. Below image (right)contains a yellow line, which is the projection of axial plane in sagittal view (In this case axial plane was perpendicular to sagittal plane so there was just one line instead of 2).
 
+<div>
+  <!--{% include image.html url="/images/cervical_view.jpeg" caption="" max_width="100px"%}
+  {% include image.html url="/images/lumbar_view.jpeg" caption="" max_width="100px"%}-->
+  <img src="/images/bottom_left.png" width="256" height="256" align="middle"/>
+  <img src="/images/bottom_right.png" width="256" height="256" align="middle"/>
+</div>
+
 If we project all the axial planes present in a particular MRI case, we will get group of lines each will pass through either through lumbar disc or vertebrae.
 We crop out few good images of lumbar disc from sagittal scans, and use that as our templates for template matching in sagittal image. Now if we do template matching we get lots of possible locations (some of which are repetitive and some are false positive). To remove repetitive detection we calculate the intersection between each detection, if they surpass some threshold then we assume those detection to be made on same object and remove one of them (Selecting which to remove is another challenge as we still don’t know which detection is more aligned with the object).
 Removing false positives is also a challenging task, as we don’t know where the object (lumbar disc) is, but we can minimise it. We can take the help of lines which we get when we project axial scans to sagittal scans. We know that lumbar disc should lie somewhere in the line, so we put additional condition that if the detection doesn’t have intersection with the line then we reject that detection right away and keep all other detection under consideration for further filter.

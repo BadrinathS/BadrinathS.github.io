@@ -42,5 +42,10 @@ Here we have multiple polynomial which are parallel to each other (parallel is n
 Our final detection will be all the detection which intersect with the polynomial and reject other detections.
 This method is completely unsupervised, this method is dependent on the quality of template, quality of MRI scans. And this is a huge parameter. As with not so good quality templates will lead to false detections. False detection will lead to weird final results.
 With the variety of scan quality, detection of lumbar disc can be better handled through supervised method (like object detection, segmentation map etc).
+<br>
 In next post I will discuss about measurement of spinal canal diameter.
+<br>
 I hope you found this helpful. Please suggest improvements regarding the post and also any technical mistakes. I would really appreciate any suggestions and feedback.
+
+
+{% include test_disqus.html %}

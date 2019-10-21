@@ -10,7 +10,13 @@ In this post we will discuss about an unsupervised method which can be used to d
 MRI machines take image of patient in 3 different planes, i.e. Sagittal, Coronal and Axial. To know more about working of MRI machines and different planes, refer here.
 In sagittal view of MRI, we can clearly see vertebrae and lumbar disc running parallel to spine. Below image shows a sample sagittal view and one of the lumbar disc and vertebrae.
 
-
+<div>
+  <!--{% include image.html url="/images/cervical_view.jpeg" caption="" max_width="100px"%}
+  {% include image.html url="/images/lumbar_view.jpeg" caption="" max_width="100px"%}-->
+  <img src="images/left.png" width="128" height="128" align="middle"/>
+  <img src="images/mid.jpeg" width="128" height="128" align="middle"/>
+  <img src="images/right.jpeg" width="128" height="128" align="middle"/>
+</div>
 
 Detecting all the lumbar disc in a particular sagittal view of MRI through image processing method is not simple problem to solve because each sagittal view have variable number of lumbar disc, size, shape and orientation of each disc is different also each image have different pixel distributions.
 When we get MRI scan of a patient, we get images from all 3 planes, so by using that we can figure out projection of other 2 plane in sagittal view. We get projection as a line is the corresponding plane is horizontal with coordinate axis, otherwise it will be a trapezium. When we project 2 opposite sides of axial plane to sagittal planes, we get line(or 2 line if axial plane is not horizontal), generally in case of MRI machines that line passes through lumbar disc or vertebrae.

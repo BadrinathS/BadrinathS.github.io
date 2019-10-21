@@ -13,9 +13,9 @@ In sagittal view of MRI, we can clearly see vertebrae and lumbar disc running pa
 <div>
   <!--{% include image.html url="/images/cervical_view.jpeg" caption="" max_width="100px"%}
   {% include image.html url="/images/lumbar_view.jpeg" caption="" max_width="100px"%}-->
-  <img src="images/left.png" width="128" height="128" align="middle"/>
-  <img src="images/mid.jpeg" width="128" height="128" align="middle"/>
-  <img src="images/right.jpeg" width="128" height="128" align="middle"/>
+  <img src="/images/left.png" width="128" height="128" align="middle"/>
+  <img src="/images/mid.jpeg" width="128" height="128" align="middle"/>
+  <img src="/images/right.jpeg" width="128" height="128" align="middle"/>
 </div>
 
 Detecting all the lumbar disc in a particular sagittal view of MRI through image processing method is not simple problem to solve because each sagittal view have variable number of lumbar disc, size, shape and orientation of each disc is different also each image have different pixel distributions.

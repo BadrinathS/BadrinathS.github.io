@@ -34,7 +34,7 @@ pubs:
       conference: "Association for the Advancement of Artificial Intelligence"
       note:    "Submitted"
       year:    "2019"
-    #  url:     "https://drive.google.com/open?id=1e616rdl3sSzC8woABygdQH4rdflWKa6q"
+      url:     "/resume/RSNA.pdf"
     #  doi:     "http://dx.doi.org"
       image:   "/images/C6_4points.jpg"
     # media:

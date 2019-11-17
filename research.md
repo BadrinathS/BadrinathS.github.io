@@ -31,7 +31,7 @@ pubs:
       
     - title:   "Spondylolisthesis Grading in sagittal MRI scans using convolutional neural networks"
       author:  "Badrinath Singhal, Meenakshi Singh, Vivek Kumaran"
-      conference: "Association for the Advancement of Artificial Intelligence"
+      journal: "Radiology Society of North America - Artificial Intelligence (RSNA AI)"
       note:    "Submitted"
       year:    "2019"
       url:     "/resume/RSNA.pdf"

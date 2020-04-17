@@ -8,6 +8,7 @@ Here is the much awaited blog.
 
 <ul class="listing">
 {% for post in site.posts %}
+  {{ post | jsonify }}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}

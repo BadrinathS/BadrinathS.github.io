@@ -9,7 +9,7 @@ permalink: /
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
-Hi, I am currently working at<a href="https://synapsica.com" target="_blank"> Synapsica Technologies </a> as an AI Scientist. I am working in automating the diagnosis process of diseases (like Spinal Stenosis, Listhesis, Disc Herniation etc.) which can be diagnosed using MRI scans. 
+Hi, I am currently working at<a href="https://embodyme.com/" target="_blank"> EmbodyMe </a> as an Machine Learning Scientist.
 <br>
 <br>
 I graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute of Tehnology Guwahati </a> majoring in  Electronics and Electrical Engineering with minor in Computer Science and Engineering. For my secondary and senior secondary education I attended <a href="http://www.kvcrpf.ac.in/" target="_blank"> Kendriya Vidyalaya C.R.P.F. Amerigog </a>.

@@ -29,14 +29,14 @@ pubs:
           url:  "/resume/wcci_fuzzy.pdf"
       
       
-    - title:   "Spondylolisthesis Grading in sagittal MRI scans using convolutional neural networks"
-      author:  "Badrinath Singhal, Meenakshi Singh, Vivek Kumaran"
-      conference: "MIDL 2020"
-      note:    "Under Review"
-      year:    "2019"
-      url:     "/resume/RSNA.pdf"
+    # - title:   "Spondylolisthesis Grading in sagittal MRI scans using convolutional neural networks"
+    #   author:  "Badrinath Singhal, Meenakshi Singh, Vivek Kumaran"
+    #   conference: "MIDL 2020"
+    #   note:    "Under Review"
+    #   year:    "2019"
+    #   url:     "/resume/RSNA.pdf"
     #  doi:     "http://dx.doi.org"
-      image:   "/images/C6_4points.jpg"
+    #  image:   "/images/C6_4points.jpg"
     # media:
     #    - name: "Talk"
     #      url:  "https://drive.google.com/open?id=1uSlK-YbxPpXahhAKOOF0B_HHH4uay_i0"

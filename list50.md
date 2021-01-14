@@ -11,8 +11,8 @@ permalink: /list50/
  <li>✓ Run any marathon</li> 
  <li>✗ Run a half marathon</li>
  <li>✗ Do a standup comedy</li>
- <li>✗ Learn piano </li>
- <li>✓ Learn guitar</li>
+ <li>✗ Learn piano (baiscs) </li>
+ <li>✓ Learn guitar (basics)</li>
  <li>✗ Perform a instrument at stage in front of audience </li>
  <li>✗ Build a home in Guwahati </li>
  <li>✗ Visit Big Bang Theory Set </li>

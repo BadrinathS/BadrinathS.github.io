@@ -26,6 +26,7 @@ Feel free to contact me if you want to discuss something or meet over coffee, I 
 Badrinath Singhal <br />
 Tokyo, Japan<br />
 Email: badrinath2602@gmail.com <br />
+Twitter: @mrbadrinath
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/BadrinathS" data-size="large" aria-label="Follow @BadrinathS on GitHub">Follow @BadrinathS</a>
 

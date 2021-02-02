@@ -24,8 +24,7 @@ Feel free to contact me if you want to discuss something or meet over coffee, I 
 ## Contact:
 
 Badrinath Singhal <br />
-<a href="https://synapsica.com" target="_blank">Synapsica Technologies</a> <br />
-Bangalore, India<br />
+Tokyo, Japan<br />
 Email: badrinath2602@gmail.com <br />
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/BadrinathS" data-size="large" aria-label="Follow @BadrinathS on GitHub">Follow @BadrinathS</a>

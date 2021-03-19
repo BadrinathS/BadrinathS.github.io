@@ -8,6 +8,7 @@ Here is the much awaited blog.
 
 <ul class="listing">
 <a href= "/resume/Initialisation_Strategies.pdf">"2021-03-20: Initialisation Strategies"</a>
+<br>
  <a href= "/resume/Bias_and_Variance.pdf">"2021-03-19: Bias and Variance" </a>
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}

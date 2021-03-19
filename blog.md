@@ -18,5 +18,5 @@ Here is the much awaited blog.
     <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
-  <a href= "https://github.com/BadrinathS/BadrinathS.github.io/blob/master/resume/StockMarketBasics.pdf">"test" </a>
+  <a href= "/resume/StockMarketBasics.pdf">"test" </a>
 </ul>

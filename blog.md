@@ -7,7 +7,7 @@ permalink: /blog/
 Here is the much awaited blog.
 
 <ul class="listing">
- <a href= "/resume/Bias_and_Variance.pdf">"2021-03-08: Bias and Variance" </a>
+ <a href= "/resume/Bias_and_Variance.pdf">"2021-03-19: Bias and Variance" </a>
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}

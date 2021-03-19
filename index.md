@@ -18,6 +18,12 @@ I graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute 
 During my junior year, I worked at <a href="http://fuzzy.hanyang.ac.kr/" target="_blank"> Computer Vision and Fuzzy Systems Lab</a> in <a href="https://www.hanyang.ac.kr/web/eng" target="_blank">Hanyang University </a> under the supervision of Prof. Frank Chung Hoon Rhee where I have worked in the field of Fuzzy logic with focus on "Interval Type 2 Fuzzy C Means Clustering algorithm". For my sophomore year, I worked at<a href="http://sacral.c.u-tokyo.ac.jp/" target="_blank"> Ikegami Lab </a> in <a href="https://www.u-tokyo.ac.jp/en/" target="_blank"> The University of Tokyo</a>.
 
 <!--My updated resume can be found <a href="resume/Resume.pdf"> here </a>.-->
+Currently I am learning a thing or two about stock markets, watching and predicting market is full of excitment and nervoursness. Participating in market can go either way, but knowing the principles behind how the market operates can slightly bend the situation to your favour. I am learning about market through <a href="https://zerodha.com/varsity/" target="_blank"> Zerodha's Varsity </a> and have completed few certifications.
+<ol>
+    <li><a href="/resume/StockMarketBasics.pdf">Stock Market Basics </a></li>
+    <li><a href="/resume/TechnicalAnalysis.pdf">Technical Analysis </a></li>
+    <li><a href="/resume/FundamentalAnalysis.pdf">Fundamental Analysis </a></li>
+</ol>
 
 Feel free to contact me if you want to discuss something or meet over coffee, I am also open to collaboration and suggestions through email or LinkedIn.
 

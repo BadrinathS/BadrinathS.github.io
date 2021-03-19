@@ -8,7 +8,6 @@ permalink: /list50/
 
 <ol>
  <li>✓ Travel in different country alone</li> 
- <li>✓ Run any marathon</li> 
  <li>✗ Run a half marathon</li>
  <li>✗ Do a standup comedy</li>
  <li>✗ Learn piano (baiscs) </li>

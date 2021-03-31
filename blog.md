@@ -7,6 +7,8 @@ permalink: /blog/
 Here is the much awaited blog.
 
 <ul class="listing">
+<a hred="/resume/The_Morning_Star.pdf">2021-03-31: The Morning Star</a>
+<br>
 <a href="/resume/Plastics.pdf">2021-03-23: Plastics</a>
 <br>
 <a href= "/resume/Initialisation_Strategies.pdf">2021-03-20: Initialisation Strategies</a>

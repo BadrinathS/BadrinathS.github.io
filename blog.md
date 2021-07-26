@@ -7,6 +7,8 @@ permalink: /blog/
 Here is the much awaited blog.
 
 <ul class="listing">
+<a href="/resume/CT-3DMorphableModels.pdf">2021-07-26: 3D Morphable Models</a>
+<br>
 <a href="/resume/Spatial_Pyramid_Pooling.pdf">2021-05-22: Spatial Pyramid Pooling</a>
 <br>
 <a href="/resume/The_Morning_Star.pdf">2021-03-31: The Morning Star</a>

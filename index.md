@@ -12,7 +12,7 @@ permalink: /
 Hi, I am currently working at<a href="https://embodyme.com/" target="_blank"> EmbodyMe </a> as an Machine Learning Scientist.
 <br>
 <br>
-I graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute of Tehnology Guwahati </a> majoring in  Electronics and Electrical Engineering with minor in Computer Science and Engineering. For my secondary and senior secondary education I attended <a href="http://www.kvcrpf.ac.in/" target="_blank"> Kendriya Vidyalaya C.R.P.F. Amerigog </a>.
+I graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute of Tehnology Guwahati </a> majoring in  Electronics and Electrical Engineering with minor in Computer Science and Engineering. For my secondary and senior secondary education I attended <a href="https://amerigogcrpf.kvs.ac.in/" target="_blank"> Kendriya Vidyalaya C.R.P.F. Amerigog </a>.
 <br>
 <br>
 During my junior year, I worked at <a href="http://fuzzy.hanyang.ac.kr/" target="_blank"> Computer Vision and Fuzzy Systems Lab</a> in <a href="https://www.hanyang.ac.kr/web/eng" target="_blank">Hanyang University </a> under the supervision of Prof. Frank Chung Hoon Rhee where I have worked in the field of Fuzzy logic with focus on "Interval Type 2 Fuzzy C Means Clustering algorithm". For my sophomore year, I worked at<a href="http://sacral.c.u-tokyo.ac.jp/" target="_blank"> Ikegami Lab </a> in <a href="https://www.u-tokyo.ac.jp/en/" target="_blank"> The University of Tokyo</a>.

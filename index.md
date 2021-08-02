@@ -26,7 +26,7 @@ Currently I am learning a thing or two about stock markets, watching and predict
     <li><a href="/resume/FuturesTrading.pdf">Futures Trading </a></li>
 </ol>
 
-Feel free to contact me if you want to discuss something or meet over coffee, I am also open to collaboration and suggestions through email or LinkedIn.
+Feel free to contact me if you want to discuss something or meet over coffee, I am also open to collaboration and suggestions.
 
 ## Contact:
 

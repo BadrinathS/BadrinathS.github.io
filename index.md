@@ -17,7 +17,7 @@ I graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute 
 <br>
 During my junior year, I worked at <a href="http://fuzzy.hanyang.ac.kr/" target="_blank"> Computer Vision and Fuzzy Systems Lab</a> in <a href="https://www.hanyang.ac.kr/web/eng" target="_blank">Hanyang University </a> under the supervision of Prof. Frank Chung Hoon Rhee where I have worked in the field of Fuzzy logic with focus on "Interval Type 2 Fuzzy C Means Clustering algorithm". For my sophomore year, I worked at<a href="http://sacral.c.u-tokyo.ac.jp/" target="_blank"> Ikegami Lab </a> in <a href="https://www.u-tokyo.ac.jp/en/" target="_blank"> The University of Tokyo</a>.
 
-<!--My updated resume can be found <a href="resume/Resume.pdf"> here </a>.-->
+
 Currently I am learning a thing or two about stock markets, watching and predicting market is full of excitment and nervoursness. Lately I am finding financial world very interesting and I am trying to dive more into financial world by reading articles and theories behind some concepts. Participating in market can go either way, but knowing the principles behind how the market operates can slightly bend the situation to your favour. I am learning about market principles through <a href="https://zerodha.com/varsity/" target="_blank"> Zerodha's Varsity </a> and have completed few certifications.
 <ol>
     <li><a href="/resume/StockMarketBasics.pdf">Stock Market Basics </a></li>
@@ -28,7 +28,7 @@ Currently I am learning a thing or two about stock markets, watching and predict
 
 Feel free to contact me if you want to discuss something or meet over coffee, I am also open to collaboration and suggestions through email or LinkedIn.
 
-## Contact:
+<!-- ## Contact:
 
 Badrinath Singhal <br />
 Tokyo, Japan<br />
@@ -39,5 +39,5 @@ Twitter: @mrbadrinath
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="badrinath-s"><a class="LI-simple-link" href='https://in.linkedin.com/in/badrinath-s?trk=profile-badge'>Badrinath Singhal</a></div>
-
+ -->
 

@@ -7,6 +7,8 @@ permalink: /blog/
 Here is the much awaited blog.
 
 <ul class="listing">
+<a href="/resume/Counterfactuals_Basics.pdf">2021-08-25: Counteractuals Basics</a>
+<br>
 <a href="/resume/CT-3DMorphableModels.pdf">2021-07-26: 3D Morphable Models</a>
 <br>
 <a href="/resume/Spatial_Pyramid_Pooling.pdf">2021-05-22: Spatial Pyramid Pooling</a>

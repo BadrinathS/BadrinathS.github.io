@@ -9,7 +9,7 @@ permalink: /
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
-Hi, I am currently working at<a href="https://embodyme.com/" target="_blank"> EmbodyMe </a> as an Machine Learning Scientist.
+Hi, I am currently working at<a href="https://embodyme.com/" target="_blank"> EmbodyMe </a> as a Machine Learning Scientist.
 <br>
 <br>
 I graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute of Tehnology Guwahati </a> majoring in  Electronics and Electrical Engineering with minor in Computer Science and Engineering. For my secondary and senior secondary education I attended <a href="https://amerigogcrpf.kvs.ac.in/" target="_blank"> Kendriya Vidyalaya C.R.P.F. Amerigog </a>.

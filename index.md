@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-{% include image.html url="images/photo.jpg" caption="" max_width="100px" align="right" %}
+{% include image.html url="images/photo_2.jpg" caption="" max_width="100px" align="right" %}
 <!-- Place this tag in your head or just before your close body tag. Github Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 

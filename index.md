@@ -20,13 +20,13 @@ I graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute 
 Here is a <a href="https://www.youtube.com/watch?v=a1zDuOPkMSw&ab_channel=securitylectures">talk</a> from Richard Hamming about how to do great research, the talk is very practical and can be applied by any researcher across any field. I believe we can apply this to any career and not necessarily in research. Although I find the <a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html">transcript</a> of the talk more impactful than the video. Do listen to the lecture if you can. 
 
 
-Currently I am learning a thing or two about stock markets, watching and predicting market is full of excitment and nervoursness. Lately I am finding financial world very interesting and I am trying to dive more into financial world by reading articles and theories behind some concepts. Participating in market can go either way, but knowing the principles behind how the market operates can slightly bend the situation to your favour. I am learning about market principles through <a href="https://zerodha.com/varsity/" target="_blank"> Zerodha's Varsity </a> and have completed few certifications.
+<!-- Currently I am learning a thing or two about stock markets, watching and predicting market is full of excitment and nervoursness. Lately I am finding financial world very interesting and I am trying to dive more into financial world by reading articles and theories behind some concepts. Participating in market can go either way, but knowing the principles behind how the market operates can slightly bend the situation to your favour. I am learning about market principles through <a href="https://zerodha.com/varsity/" target="_blank"> Zerodha's Varsity </a> and have completed few certifications.
 <ol>
     <li><a href="/resume/StockMarketBasics.pdf">Stock Market Basics </a></li>
     <li><a href="/resume/TechnicalAnalysis.pdf">Technical Analysis </a></li>
     <li><a href="/resume/FundamentalAnalysis.pdf">Fundamental Analysis </a></li>
     <li><a href="/resume/FuturesTrading.pdf">Futures Trading </a></li>
-</ol>
+</ol> -->
 
 Here is the <a href="https://www.youtube.com/watch?v=4SQfsBsMFls&ab_channel=ItamarSegal">video</a> of Neil Patric Harris hosting the Tony Awards 2013, I love the video and watch it once in a while. Every time I watch this, it puts a smile on my face and I hope it does the same to you. 
 

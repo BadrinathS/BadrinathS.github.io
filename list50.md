@@ -12,9 +12,7 @@ permalink: /list50/
  <li>✗ Do a standup comedy</li>
  <li>✗ Learn piano (baiscs) </li>
  <li>✓ Learn guitar (basics)</li>
- <li>✗ Perform a instrument at stage in front of audience </li>
  <li>✗ Build a home in Guwahati </li>
- <li>✗ Visit Big Bang Theory Set </li>
  <li>  Help others </li>
  <li>✗ Learn to cook awesome food </li>
  <li>✓ Publish a research paper </li>
@@ -27,11 +25,11 @@ permalink: /list50/
  <li>✗ Do a back flip</li>
  <li>✗ Have a date with Emma Watson</li>
  <li>✗ Take my father and brother for a trip to Europe</li>
- <li>✓ Get fit </li>
+ <li> Stay fit </li>
  <li>✗ Learn to write good article </li>
  <li>✗ Ask a stranger out</li>
  <li>✗ Learn one more language </li>
  <li>✗ Become a organ donor</li>
- <li>✓ Be humble </li>
+ <li> Be humble </li>
  <li> Be kind </li>
 </ol>

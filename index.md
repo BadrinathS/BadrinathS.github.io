@@ -9,8 +9,6 @@ permalink: /
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 Hi, Thanks for dropping on this site, below are some academic/professional details about me. Outside of professional life, I just try not to take things seriously. I enjoy cricket, running, comedy, food, tea, sunrise/sunset, mathematics etc.
-
-<br>
 <br>
 Previously I worked at<a href="https://embodyme.com/" target="_blank"> EmbodyMe </a> as a Machine Learning Scientist. And even before that I worked at <a href="https://synapsica.com/" target="_blank"> Synapsica </a>. I've also done some contractual work outside of these stints for a brief period. 
 <br>
@@ -38,8 +36,8 @@ Twitter: <a href="https://twitter.com/mrbadrinath">@mrbadrinath</a><br>
 <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="badrinath-s"><a class="LI-simple-link" href='https://in.linkedin.com/in/badrinath-s?trk=profile-badge'>Badrinath Singhal</a></div> -->
 
-I ocasaionally get visitors on this site, I am grateful for each visit and spending time here.  
+On some rare ocasaion I get visitors on this site, I am grateful for spending time here.  
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=AyvvqSWhdeFEioCTJd1EXBYLGUlgo_-xKnTJhLhZs0k"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=AyvvqSWhdeFEioCTJd1EXBYLGUlgo_-xKnTJhLhZs0k&cl=ffffff&w=a"></script>
 
 

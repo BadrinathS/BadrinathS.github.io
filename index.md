@@ -10,6 +10,7 @@ permalink: /
 
 Hi, Thanks for dropping on this site, below are some academic/professional details about me. Outside of professional life, I just try not to take things seriously. I enjoy cricket, running, comedy, food, tea, sunrise/sunset, mathematics etc.
 <br>
+<br>
 Previously I worked at<a href="https://embodyme.com/" target="_blank"> EmbodyMe </a> as a Machine Learning Scientist. And even before that I worked at <a href="https://synapsica.com/" target="_blank"> Synapsica </a>. I've also done some contractual work outside of these stints for a brief period. 
 <br>
 <br>

@@ -8,8 +8,11 @@ permalink: /
 <!-- Place this tag in your head or just before your close body tag. Github Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-Hi, Thanks for dropping on this site, below are some academic/professional details about me. Apart from these details, I just try not to take things seriously. 
-Previously I worked at<a href="https://embodyme.com/" target="_blank"> EmbodyMe </a> as a Machine Learning Scientist. And even before that I worked at <a href="https://synapsica.com/" target="_blank"> Synapsica </a>. 
+Hi, Thanks for dropping on this site, below are some academic/professional details about me. Outside of professional life, I just try not to take things seriously. I enjoy cricket, running, comedy, food, tea, sunrise/sunset, mathematics etc.
+
+<br>
+<br>
+Previously I worked at<a href="https://embodyme.com/" target="_blank"> EmbodyMe </a> as a Machine Learning Scientist. And even before that I worked at <a href="https://synapsica.com/" target="_blank"> Synapsica </a>. I've also done some contractual work outside of these stints for a brief period. 
 <br>
 <br>
 I graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute of Tehnology Guwahati </a> majoring in  Electronics and Electrical Engineering with minor in Computer Science and Engineering. For my secondary and senior secondary education I attended <a href="https://amerigogcrpf.kvs.ac.in/" target="_blank"> Kendriya Vidyalaya C.R.P.F. Amerigog </a>.
@@ -34,5 +37,9 @@ Twitter: <a href="https://twitter.com/mrbadrinath">@mrbadrinath</a><br>
 
 <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="badrinath-s"><a class="LI-simple-link" href='https://in.linkedin.com/in/badrinath-s?trk=profile-badge'>Badrinath Singhal</a></div> -->
+
+I ocasaionally get visitors on this site, I am grateful for each visit and spending time here.  
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=AyvvqSWhdeFEioCTJd1EXBYLGUlgo_-xKnTJhLhZs0k"></script>
 
 

@@ -27,33 +27,6 @@ pubs:
       media:
         - name: "Talk"
           url:  "/resume/wcci_fuzzy.pdf"
-      
-      
-    # - title:   "Spondylolisthesis Grading in sagittal MRI scans using convolutional neural networks"
-    #   author:  "Badrinath Singhal, Meenakshi Singh, Vivek Kumaran"
-    #   conference: "MIDL 2020"
-    #   note:    "Under Review"
-    #   year:    "2019"
-    #   url:     "/resume/RSNA.pdf"
-    #  doi:     "http://dx.doi.org"
-    #  image:   "/images/C6_4points.jpg"
-    # media:
-    #    - name: "Talk"
-    #      url:  "https://drive.google.com/open?id=1uSlK-YbxPpXahhAKOOF0B_HHH4uay_i0"
-
-    #- title:   "BayeRegX: Uncertainty Driven, Attention-based Keypoint Regression for Mensuration Analysis of Spinal X-rays"
-    #  author:  "Uddeshya Upadhyay, Badrinath Singhal, Kuldeep Singh, Meenakshi Singh"
-    #  conference: "ACM Conference on Health Inference and Learning (CHIL) 2020"
-    #  note:    "Under Review"
-    #  year:    "2020"
-    #  url:     "http://publish-more-stuff.org"
-    #  doi:     "http://dx.doi.org"
-    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
-    #  media:
-    #    - name: "IMDB"
-    #      url:  "http://www.imdb.com/title/tt0133093/"
-
-
 
 projects:
 
@@ -83,72 +56,6 @@ projects:
       media:
         - name: "Github"
           url:  "https://github.com/BadrinathS/Listhesis-evaluation-from-sagittal-MRI-scans"
-
-    - title:   "Efficient VLSI Implementation of SVD using CORDIC"
-      about: "In this work, we developed a way to calculate SVD of a nxn matrix which consists of operations that can be implemented on VLSI architecture. CORDIC algorithm was used to implement SVD for 2x2 matrix which was further tested in Verilog. For nxn matrix (n>2) we performed series of operations consisting of rotation, shifting, 2x2 SVD to calculate its SVD. We converted each operations such that every operations can be implementated in VLSI architecture. We further tested the approach in Matlab and Verilog."
-    #  author:  "Shashank Anil Huddedar, Mayank Kagliwal, Badrinath Singhal and Frank Rhee"
-    #  conference: "World Congress on Computational Intelligence"
-    #  note:    "(presented at Rio, Brazil)"
-      year:    "2018"
-      url:     "/resume/BTP_2018.pdf"
-    #  doi:     "http://dx.doi.org"
-    #  image:   "/images/fuzzy_paper_thumbnail.png"
-      media:
-        - name: "Github"
-          url:  "https://github.com/BadrinathS/Efficient-VLSI-Implementation-of-SVD"
-
-    - title:   "Multi IT2 FCM Algorithm"
-      about: " Integrated Multi-EIASC Algorithm with IT2 Fuzzy C-Means Clustering Algorithm to give Multi-IT2 Fuzzy C-Means Algorithm. Instead of using the EIASC algorithm over each of the dimensions of pattern sets separately, we used Multi-EIASC algorithm for the complete pattern set which uses ndimensionality of pattern sets as its fundamental property"
-    #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-    #  journal: "Transactions on Black Magic"
-    #  note:    "(presented at Oz)"
-      year:    "2017"
-    #  url:     "https://ieeexplore.ieee.org/document/8491457"
-    #  doi:     "http://dx.doi.org"
-    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
-      media:
-        - name: "Github"
-          url:  "https://github.com/BadrinathS/Multi-IT2-FCM"
-    
-    
-    #- title:   "Pattern Recognition and Machine Learning (PRML) algorithm implementation"
-    #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-    #  journal: "Transactions on Black Magic"
-    #  note:    "(presented at Oz)"
-    #  year:    "2014"
-    #  url:     "http://publish-more-stuff.org"
-    #  doi:     "http://dx.doi.org"
-    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
-    #  media:
-    #    - name: "IMDB"
-    #      url:  "http://www.imdb.com/title/tt0133093/"
-  
-  
-    - title:   "Autonomous Intelligent Robot"
-      about: "Developed a robot based on turtle bot which was capable of mapping the indoor enviornment, locate itself and reach from its current position to goal position avoiding the obstacles in between. We used Robot Operating System (ROS) as a platform to implement the required algorithms, Microsoft Kinect to map the indoor enviornment, DC Servo Motor and Arduino to provide commands to move around. We used RANSAC algorithm to stich the images during mapping purpose and Dijkstra Algorithm for calculating the path to goal position. We further used I2C communication to pass signal to DC Servo Motor "
-    #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-    #  journal: "Transactions on Black Magic"
-    #  note:    "(presented at Oz)"
-      year:    "2014"
-    #  url:     "http://publish-more-stuff.org"
-    #  doi:     "http://dx.doi.org"
-    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
-    #  media:
-    #    - name: "IMDB"
-    #      url:  "http://www.imdb.com/title/tt0133093/"
-    
-
-    #- title:   "Image Processing Algorithms implementation"
-    #  author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-    #  journal: "Transactions on Black Magic"
-    #  note:    "(presented at Oz)"
-    #  year:    "2014"
-    #  url:     "http://publish-more-stuff.org"
-    #  doi:     "http://dx.doi.org"
-    #  image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-#1020518087.jpg&f=1"
-    #  media:
-    #    - name: "IMDB"
-    #      url:  "http://www.imdb.com/title/tt0133093/"
 
 
 ---

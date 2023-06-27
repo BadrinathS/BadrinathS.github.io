@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-Here is the much awaited blog.
+Sometimes I write something here, its mostly to practise writing or make notes or sometimes for no reason at all. 
 
 <ul class="listing">
 <a href="/resume/Counterfactuals_Basics.pdf">2021-08-25: Counteractuals Basics</a>

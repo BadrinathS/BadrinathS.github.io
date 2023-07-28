@@ -1,15 +1,16 @@
-# My Website
+# Personal Website
 
-This theme is avaiable under [MIT License](https://opensource.org/licenses/MIT).
+This repository contains the python script to generate [my homepage](https://m-niemeyer.github.io/). It is very easy to adapt to your needs, and easy to maintain as the papers are crawled automatically from `publication_list.bib` and the talks from `talk_list.bib`.
 
-This is a modified version of [Steve Miller's NGVM theme](http://jekyllthemes.org/themes/svm-ngvb/). Since this work is a derivative of Prof. Miller's, therefore it is only fair that I honour his self-deprecating spirit and name this **much-worse**. I prefer large seriff fonts and minimal coloring and styling. Apart form the typography, color scheme and layout,
-this theme has two useful changes:
+## How to use it
+1. Update and adjust the name and bio text in the function `get_personal_data` in the `build.py` file.
+2. Upload your own profile photo to `assets/img/profile.jpg`.
+3. Replace `publications_list.pub` with your publications. Note that the entries are crawled from top to bottom, i.e. the first entries are shown at the top. Further, the entries contain additional fields like `html`, `code`, and more, that are used to generate the links to the project page, code, etc. Check out the function `get_paper_entry` in `build.py` for more information.
+4. Replace `talk_list.pub` with your talks similar to before. Check out the function `get_talk_entry` in `build.py` for more information on accepted talk fields.
+5. Update the author websites in the function `get_author_dict` in `builds.py` to automatically generate the links to your co-authors' websites.
+6. Run `python build.py` which automatically generates the `index.html` file - the only file you need!
+7. Add credits and a link to my website; if you want me to also link to yours, send me a short message.
 
-- It allows you to maintain your website as a subdirectory on your university of company domain (e.g. http://university.edu/department/people/your-website). Most Jekyll blogs are
-designed to be hosted at custom domain names.
+## Credits
 
-- Most jekyll themes are blog-centric, or single page websites. This theme lets you create multi-page website with a blog if you want.
-
-Both the above are not seminal achievements in science, but they are useful. This theme also supports site analytics including [Statcounter](http://statcounter.com) and major comment providers for blogs.
-
-Feel free to send me pull requests with better responsive performance or cleaner HTML/CSS.
+The overall design and open-sourcing the script is inspired by [Jon Barron's awesome template](https://jonbarron.info/) and some functionality is inspired by [Andreas Geiger's cool website](https://cvlibs.net)!

@@ -11,7 +11,7 @@ def get_personal_data():
                 <p>Hi, Thanks for dropping on this site, below are some academic/professional details about me. 
                 Outside of professional life, I just try not to take things seriously. I enjoy cricket, running, comedy, food, tea, sunrise/sunset, mathematics etc.
                 
-                I am a PhD student at Indian Institute of Science, Banagalore working on vision and learning.</p>
+                </p>
                 <!-- <p>
                     <span style="font-weight: bold;">Research:</span>
                 </p> -->

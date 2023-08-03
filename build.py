@@ -29,7 +29,7 @@ def get_personal_data():
                 </p>
                 <p>
                     Here is a <a href="https://www.youtube.com/watch?v=a1zDuOPkMSw&ab_channel=securitylectures">talk</a> from Richard Hamming about how to do great research, the talk is very practical and can be applied by any researcher across any field. 
-                    It can be interpolated to any aspect of life and not necessarily in research. Although I find the <a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html">transcript</a> of the talk more impactful than the video. Do listen to the lecture if you can. 
+                    Tricks and tips suggested here can be interpolated to any aspect of life. Although I find the <a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html">transcript</a> of the talk more impactful than the video. Do listen (or read) the lecture if you can. 
 
                 </p>
                 <p>

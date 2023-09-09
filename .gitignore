@@ -3,4 +3,5 @@ _site
 .DS_Store
 assets/.DS_Store
 assets/img/.DS_Store
+assets/img/talks/.DS_Store
 assets/pdf/.DS_Store

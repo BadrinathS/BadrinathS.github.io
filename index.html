@@ -1,121 +1,805 @@
-
-    <!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
   <title>Badrinath Singhal</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    /* ── Theme tokens ── */
+    :root {
+      /* Body / cards */
+      --bg:              #f8fafc;
+      --card-bg:         #ffffff;
+      --text:            #1e293b;
+      --text-muted:      #475569;
+      --text-faint:      #94a3b8;
+      --border:          #e2e8f0;
+      --row-border:      #f1f5f9;
+      --hover-bg:        #f8fafc;
+      --pub-title:       #1e40af;
+      --tag-bg:          #eff6ff;
+      --tag-border:      #bfdbfe;
+      --tag-color:       #1e40af;
+      --bibtex-bg:       #f8fafc;
+      --section-line:    #e2e8f0;
+      --section-label:   #94a3b8;
+      --footer-color:    #94a3b8;
+      --footer-border:   #e2e8f0;
+      /* Nav */
+      --nav-bg:          rgba(255,255,255,0.92);
+      --nav-border:      rgba(0,0,0,0.08);
+      --nav-brand:       #0f172a;
+      --nav-link:        #475569;
+      --nav-link-hover:  #2563eb;
+      --toggle-bg:       rgba(0,0,0,0.05);
+      --toggle-border:   rgba(0,0,0,0.1);
+      --toggle-color:    #64748b;
+      /* Hero */
+      --hero-start:      #f0f9ff;
+      --hero-mid:        #dbeafe;
+      --hero-end:        #f0f9ff;
+      --hero-dot:        rgba(14,165,233,0.07);
+      --hero-glow:       rgba(59,130,246,0.1);
+      --hero-name:       #0f172a;
+      --hero-accent:     #1d4ed8;
+      --hero-tagline:    #94a3b8;
+      --hero-bio:        #475569;
+      --hero-bio-strong: #1e293b;
+      --hero-bio-link:   #0284c7;
+      --hero-social-bg:  rgba(0,0,0,0.05);
+      --hero-social-bdr: rgba(0,0,0,0.1);
+      --hero-social-clr: #475569;
+      --hero-cv-clr:     #0f172a;
+      --hero-photo-bdr:  rgba(29,78,216,0.3);
+    }
+
+    [data-theme="dark"] {
+      /* Body / cards */
+      --bg:              #0d1117;
+      --card-bg:         #161b22;
+      --text:            #e6edf3;
+      --text-muted:      #8b949e;
+      --text-faint:      #6e7681;
+      --border:          #30363d;
+      --row-border:      #21262d;
+      --hover-bg:        #1c2128;
+      --pub-title:       #58a6ff;
+      --tag-bg:          #1f2937;
+      --tag-border:      #374151;
+      --tag-color:       #60a5fa;
+      --bibtex-bg:       #0d1117;
+      --section-line:    #30363d;
+      --section-label:   #6e7681;
+      --footer-color:    #6e7681;
+      --footer-border:   #30363d;
+      /* Nav */
+      --nav-bg:          rgba(15,23,42,0.92);
+      --nav-border:      rgba(255,255,255,0.07);
+      --nav-brand:       #e2e8f0;
+      --nav-link:        #94a3b8;
+      --nav-link-hover:  #60a5fa;
+      --toggle-bg:       rgba(255,255,255,0.07);
+      --toggle-border:   rgba(255,255,255,0.12);
+      --toggle-color:    #94a3b8;
+      /* Hero */
+      --hero-start:      #0f172a;
+      --hero-mid:        #0f2850;
+      --hero-end:        #0c1a3d;
+      --hero-dot:        rgba(255,255,255,0.055);
+      --hero-glow:       rgba(59,130,246,0.18);
+      --hero-name:       #f1f5f9;
+      --hero-accent:     #60a5fa;
+      --hero-tagline:    #64748b;
+      --hero-bio:        #94a3b8;
+      --hero-bio-strong: #cbd5e1;
+      --hero-bio-link:   #7dd3fc;
+      --hero-social-bg:  rgba(255,255,255,0.06);
+      --hero-social-bdr: rgba(255,255,255,0.12);
+      --hero-social-clr: #94a3b8;
+      --hero-cv-clr:     #e2e8f0;
+      --hero-photo-bdr:  rgba(96,165,250,0.3);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.75;
+      font-size: 0.95rem;
+      margin: 0;
+      transition: background 0.25s, color 0.25s;
+    }
+
+    a { color: #3b82f6; text-decoration: none; }
+    a:hover { color: #1d4ed8; text-decoration: none; }
+
+    /* ── Nav ── */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 300;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--nav-border);
+      transition: background 0.25s, border-color 0.25s;
+    }
+
+    .nav-inner {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 54px;
+    }
+
+    .nav-brand {
+      font-weight: 700;
+      font-size: 0.88rem;
+      color: var(--nav-brand);
+      letter-spacing: 0.01em;
+      transition: color 0.25s;
+    }
+
+    .nav-links a {
+      color: var(--nav-link);
+      font-size: 0.83rem;
+      font-weight: 500;
+      margin-left: 30px;
+      letter-spacing: 0.02em;
+      transition: color 0.15s;
+    }
+
+    .nav-links a:hover { color: var(--nav-link-hover); }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, var(--hero-start) 0%, var(--hero-mid) 55%, var(--hero-end) 100%);
+      padding: 68px 0 76px;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.25s;
+    }
+
+    /* Subtle dot-grid texture */
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(var(--hero-dot) 1px, transparent 1px);
+      background-size: 26px 26px;
+      pointer-events: none;
+    }
+
+    /* Glow blob */
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: -80px;
+      right: -80px;
+      width: 420px;
+      height: 420px;
+      background: radial-gradient(circle, var(--hero-glow) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 28px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-name {
+      font-size: 3rem;
+      font-weight: 800;
+      color: var(--hero-name);
+      letter-spacing: -1.5px;
+      line-height: 1.1;
+      margin-bottom: 8px;
+      transition: color 0.25s;
+    }
+
+    .hero-name .accent { color: var(--hero-accent); }
+
+    .hero-tagline {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--hero-tagline);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+      transition: color 0.25s;
+    }
+
+    .hero-bio {
+      color: var(--hero-bio);
+      font-size: 0.9rem;
+      line-height: 1.85;
+      max-width: 600px;
+      transition: color 0.25s;
+    }
+
+    .hero-bio p { margin-bottom: 14px; }
+    .hero-bio p:last-child { margin-bottom: 0; }
+    .hero-bio strong { color: var(--hero-bio-strong); font-weight: 600; }
+    .hero-bio a { color: var(--hero-bio-link); }
+    .hero-bio a:hover { opacity: 0.8; }
+
+    /* Social pills in hero */
+    .hero-social {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-top: 30px;
+    }
+
+    .hero-social a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--hero-social-clr);
+      background: var(--hero-social-bg);
+      border: 1px solid var(--hero-social-bdr);
+      border-radius: 50%;
+      width: 38px;
+      height: 38px;
+      font-size: 0.95rem;
+      transition: all 0.18s;
+    }
+
+    .hero-social a.cv-btn {
+      width: auto;
+      border-radius: 22px;
+      padding: 0 18px;
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      color: var(--hero-cv-clr);
+    }
+
+    .hero-social a:hover {
+      background: #3b82f6;
+      color: #ffffff;
+      border-color: #3b82f6;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(59,130,246,0.4);
+    }
+
+    /* Profile photo */
+    .hero-photo-col {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 8px;
+    }
+
+    .hero-photo {
+      width: 260px;
+      border-radius: 18px;
+      border: 3px solid var(--hero-photo-bdr);
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.06),
+                  0 24px 56px rgba(0,0,0,0.25);
+      display: block;
+      transition: border-color 0.25s;
+    }
+
+    /* ── Content area ── */
+    .content {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+
+    .section { margin-top: 56px; }
+
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--section-label);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: color 0.25s;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--section-line);
+      transition: background 0.25s;
+    }
+
+    /* ── News ── */
+    .news-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      height: 260px;
+      overflow-y: auto;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+      transition: background 0.25s, border-color 0.25s;
+    }
+
+    .news-box::-webkit-scrollbar { width: 4px; }
+    .news-box::-webkit-scrollbar-track { background: transparent; }
+    .news-box::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 4px; }
+
+    .news-item {
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+      padding: 13px 22px;
+      border-bottom: 1px solid var(--row-border);
+      transition: background 0.1s;
+    }
+
+    .news-item:last-child { border-bottom: none; }
+    .news-item:hover { background: var(--hover-bg); }
+
+    .news-date {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #3b82f6;
+      white-space: nowrap;
+      min-width: 72px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .news-text {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      transition: color 0.25s;
+    }
+
+    .news-text a { color: #3b82f6; }
+    .news-text a:hover { color: #1d4ed8; }
+    .news-text strong { color: var(--text); }
+
+    /* ── Publication cards ── */
+    .pub-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid #3b82f6;
+      border-radius: 12px;
+      padding: 22px;
+      margin-bottom: 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      transition: box-shadow 0.2s, transform 0.2s, background 0.25s, border-color 0.25s;
+    }
+
+    .pub-card:hover {
+      box-shadow: 0 8px 28px rgba(0,0,0,0.09);
+      transform: translateY(-2px);
+    }
+
+    .pub-thumb {
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--hover-bg);
+      transition: background 0.25s;
+    }
+
+    .pub-thumb img { width: 100%; display: block; }
+
+    .pub-title {
+      font-weight: 600;
+      color: var(--pub-title);
+      font-size: 0.92rem;
+      line-height: 1.5;
+      transition: color 0.25s;
+    }
+
+    .pub-title:hover { color: #1d4ed8; text-decoration: underline; }
+
+    .pub-authors {
+      color: var(--text-muted);
+      font-size: 0.82rem;
+      margin-top: 5px;
+      transition: color 0.25s;
+    }
+
+    .pub-authors strong { color: var(--text); font-weight: 600; }
+
+    .pub-venue {
+      color: var(--text-faint);
+      font-size: 0.8rem;
+      font-style: italic;
+      margin-top: 3px;
+      transition: color 0.25s;
+    }
+
+    .pub-links {
+      margin-top: 11px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .pub-links a,
+    .pub-links button {
+      font-size: 0.74rem;
+      font-weight: 500;
+      color: var(--tag-color);
+      background: var(--tag-bg);
+      border: 1px solid var(--tag-border);
+      border-radius: 5px;
+      padding: 3px 11px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+      line-height: 1.7;
+    }
+
+    .pub-links a:hover,
+    .pub-links button:hover {
+      background: #3b82f6;
+      color: #ffffff;
+      border-color: #3b82f6;
+    }
+
+    .bibtex-block {
+      margin-top: 12px;
+      background: var(--bibtex-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      overflow-x: auto;
+      transition: background 0.25s, border-color 0.25s;
+    }
+
+    .bibtex-block pre { margin: 0; }
+
+    /* ── Footer ── */
+    .site-footer {
+      text-align: center;
+      color: var(--footer-color);
+      font-size: 0.77rem;
+      padding: 28px 0 44px;
+      margin-top: 64px;
+      border-top: 1px solid var(--footer-border);
+      transition: color 0.25s, border-color 0.25s;
+    }
+
+    .site-footer a { color: var(--footer-color); }
+    .site-footer a:hover { color: var(--text-muted); }
+
+    /* ── Theme toggle button ── */
+    .theme-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--toggle-bg);
+      border: 1px solid var(--toggle-border);
+      border-radius: 50%;
+      color: var(--toggle-color);
+      width: 32px;
+      height: 32px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      margin-left: 16px;
+      transition: background 0.18s, color 0.18s, transform 0.18s, border-color 0.18s;
+      flex-shrink: 0;
+    }
+
+    .theme-toggle:hover {
+      background: #3b82f6;
+      color: #ffffff;
+      border-color: #3b82f6;
+      transform: rotate(20deg);
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 767px) {
+      .hero { padding: 44px 0 52px; }
+      .hero-name { font-size: 2.2rem; letter-spacing: -0.8px; }
+      .hero-photo { width: 200px; margin: 32px auto 0; }
+      .hero-photo-col { margin-top: 0; }
+      .nav-brand { display: none; }
+      .nav-inner { justify-content: center; }
+      .nav-links a { margin-left: 12px; margin-right: 12px; }
+      .pub-thumb { max-height: 120px; }
+    }
+  </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row" style="margin-top: 3em;">
-            <div class="col-sm-12" style="margin-bottom: 1em;">
-            <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">Badrinath</span> Singhal</h3>
-            </div>
-            <br>
-            <div class="col-md-8" style="">
-                
 
-                <p>Hi, Thanks for dropping on this site, below are some academic/professional details about me. 
-                Outside of professional life, I just try not to take things seriously. I enjoy cricket, running, comedy, food, tea, sunrise/sunset, mathematics etc.
-                
-                </p>
-                <!-- <p>
-                    <span style="font-weight: bold;">Research:</span>
-                </p> -->
-                <p>
-                    <span style="font-weight: bold;">Bio:</span> 
-                    Previously I worked at <a href="https://www.axera-tech.com/" target="_blank"> Axera Tech</a> and at <a href="https://embodyme.com/" target="_blank"> EmbodyMe </a> as a Machine Learning Scientist. And even before that I worked at <a href="https://synapsica.com/" target="_blank"> Synapsica </a>.  
-                <br>
-                <br>
-                    I graduated from <a href="https://iitg.ac.in" target="_blank"> Indian Institute of Tehnology Guwahati </a> majoring in  Electronics and Electrical Engineering with minor in Computer Science and Engineering. 
-                    For my secondary and senior secondary education I attended <a href="https://amerigogcrpf.kvs.ac.in/" target="_blank"> Kendriya Vidyalaya C.R.P.F. Amerigog </a> in Guwahati.
-                    
-                    <!-- During my junior year, I worked at <a href="http://fuzzy.hanyang.ac.kr/" target="_blank"> Computer Vision and Fuzzy Systems Lab</a> in <a href="https://www.hanyang.ac.kr/web/eng" target="_blank">Hanyang University </a> under the supervision of Prof. Frank Chung Hoon Rhee where I have worked in the field of Fuzzy logic with focus on "Interval Type 2 Fuzzy C Means Clustering algorithm". 
-                    For my sophomore year, I worked at<a href="http://sacral.c.u-tokyo.ac.jp/" target="_blank"> Ikegami Lab </a> in <a href="https://www.u-tokyo.ac.jp/en/" target="_blank"> The University of Tokyo</a>. -->
+  <!-- Nav -->
+  <header class="site-header">
+    <div class="nav-inner" style="justify-content:flex-end;">
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <button class="theme-toggle" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">
+          <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
 
-                </p>
-                <p>
-                    Here is a <a href="https://www.youtube.com/watch?v=a1zDuOPkMSw&ab_channel=securitylectures">talk</a> from Richard Hamming about how to do great research, the talk is very practical and can be applied by any researcher across any field. 
-                    Tricks and tips suggested here can be interpolated to any aspect of life. Although I find the <a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html">transcript</a> of the talk more impactful than the video. Do listen (or read) the lecture if you can. 
+  <!-- Hero / About -->
+  <section id="about" class="hero">
+    <div class="hero-inner">
+      <div class="row align-items-start">
 
-                </p>
-                <p>
-                Here is the <a href="https://www.youtube.com/watch?v=R8SeysuMpA0&ab_channel=MattHagmeierCurtis">video</a> of Neil Patric Harris hosting the Tony Awards 2013, I love to watch this video every once in a while. Hope you like it too.  
-                </p>
-                <p>Feel free to contact me if you want to discuss something or meet over coffee! I am also open to collaborations and feedback.</p>
-                <p>
-                    <a href="https://badrinaths.github.io/assets/pdf/Resume.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:badrinath2602@gmail.com" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://twitter.com/mrbadrinath" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
-                    <a href="https://github.com/BadrinathS" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
-                    <a href="https://www.linkedin.com/in/badrinath-s/" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
-                </p>
-    
-            </div>
-            <div class="col-md-4" style="">
+        <div class="col-md-8">
+          <h1 class="hero-name"><span class="accent">Badrinath</span> Singhal</h1>
+          <!-- <p class="hero-tagline">Machine Learning Researcher &nbsp;·&nbsp; IISc Bangalore</p> -->
 
-                <img src="assets/img/profile.JPG" class="img-thumbnail" width="280px" alt="Profile picture">
+          <div class="hero-bio">
+            <p>Hi, thanks for dropping by! Outside of work, I try not to take things too seriously. I enjoy cricket, running, guitar, comedy, food, tea, sunrises/sunsets, and mathematics.</p>
 
-            </div>
-        </div>
-        <div class="row" style="margin-top: 1em;">
-            <div class="col-sm-12" style="">
-                <h4>Publications</h4>
-                <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="projects/adaptive-splat/figs/AdaptiveSplat_Teaser.png" class="img-fluid img-thumbnail" alt="AdaptiveSplat teaser"></div><div class="col-sm-9"><a href="projects/adaptive-splat/" target="_blank">AdaptiveSplat: Texture-Aware Controllable 3D Gaussian Allocation for Feed-Forward Reconstruction</a> <br>Badrinath Singhal, Srihari K G, Sreehari Iyer, Ankit Dhiman, R. Venkatesh Babu <br><span style="font-style: italic;">European Conference on Computer Vision (ECCV)</span>, 2026 <br><a href="projects/adaptive-splat/" target="_blank">Project Page</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseAdaptiveSplat" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapseAdaptiveSplat"><div class="card card-body"><pre><code>@inproceedings{singhal2026adaptivesplat,
-	title     = {AdaptiveSplat: Texture-Aware Controllable 3D Gaussian Allocation for Feed-Forward Reconstruction},
-	author    = {Singhal, Badrinath and K G, Srihari and Iyer, Sreehari and Dhiman, Ankit and Babu, R. Venkatesh},
-	booktitle = {European Conference on Computer Vision (ECCV)},
-	year      = {2026},
-	organization = {Vision and AI Lab, Indian Institute of Science}
-}</pre></code></div></div> </div> </div> </div><div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/publications/plane_description.jpeg" class="img-fluid img-thumbnail" alt="Project image"></div><div class="col-sm-9"><a href="https://badrinaths.github.io" target="_blank">Spinal Stenosis Detection in MRI using Modular Coordinate Convolutional Attention Networks</a> <br>Uddeshya Upadhyay, Badrinath Singhal, Meenakshi Singh <br><span style="font-style: italic;">International Joint Conference on Neural Networks (IJCNN)</span>, 2019 <br><a href="https://badrinaths.github.io" target="_blank">Project Page</a> / <a href="https://ieeexplore.ieee.org/document/8852085" target="_blank">Paper</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseIJCNN" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapseIJCNN"><div class="card card-body"><pre><code>@InProceedings{IJCNN, 
-	author = {Uddeshya Upadhyay and Badrinath Singhal and Meenakshi Singh}, 
-	title = {Spinal Stenosis Detection in MRI using Modular Coordinate Convolutional Attention Networks}, 
-	booktitle = {International Joint Conference on Neural Networks (IJCNN)}, 
-	year = {2019}, 
-}</pre></code></div></div> </div> </div> </div><div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/publications/fuzzy_paper_thumbnail.png" class="img-fluid img-thumbnail" alt="Project image"></div><div class="col-sm-9"><a href="https://badrinaths.github.io" target="_blank">Performance Analysis of a Novel IT2 FCM Algorithm</a> <br>Shashank Huddedar, Mayank Kagliwal, Badrinath Singhal, Frank Rhee <br><span style="font-style: italic;">IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)</span>, 2018 <br><a href="https://badrinaths.github.io" target="_blank">Project Page</a> / <a href="https://ieeexplore.ieee.org/document/8491457" target="_blank">Paper</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFUZZ" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapseFUZZ"><div class="card card-body"><pre><code>@InProceedings{FUZZ, 
-	author = {Shashank Huddedar and Mayank Kagliwal and Badrinath Singhal and Frank Rhee}, 
-	title = {Performance Analysis of a Novel IT2 FCM Algorithm}, 
-	booktitle = {IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)}, 
-	year = {2018}, 
-}</pre></code></div></div> </div> </div> </div>
-            </div>
+            <p><strong>Bio:</strong> Previously I worked at <a href="https://www.axera-tech.com/" target="_blank">Axera Tech</a> and <a href="https://embodyme.com/" target="_blank">EmbodyMe</a> as a Machine Learning Scientist, and before that at <a href="https://synapsica.com/" target="_blank">Synapsica</a> as an AI Scientist. I graduated from <a href="https://iitg.ac.in" target="_blank">IIT Guwahati</a> with a major in Electronics and Electrical Engineering and a minor in Computer Science. I attended <a href="https://amerigogcrpf.kvs.ac.in/" target="_blank">Kendriya Vidyalaya C.R.P.F. Amerigog</a> for secondary school.</p>
+
+            <p>I enjoy sharing this <a href="https://www.youtube.com/watch?v=a1zDuOPkMSw&ab_channel=securitylectures" target="_blank">talk</a> by Richard Hamming on doing great research (the <a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html" target="_blank">transcript</a> is especially good). Also here is <a href="https://www.youtube.com/watch?v=R8SeysuMpA0&ab_channel=MattHagmeierCurtis" target="_blank">Neil Patrick Harris hosting Tony Awards 2013</a> always a classic!</p>
+
+            <p>Feel free to reach out for discussions, collaborations, or coffee!</p>
+          </div>
+
+          <div class="hero-social">
+            <a href="https://badrinaths.github.io/assets/pdf/Resume.pdf" target="_blank" title="CV" class="cv-btn">CV</a>
+            <a href="mailto:badrinath2602@gmail.com" title="Email"><i class="far fa-envelope-open"></i></a>
+            <a href="https://scholar.google.com/citations?user=LDQSuX4AAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://github.com/BadrinathS" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/badrinath-s/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/mrbadrinath" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
         </div>
 
-        <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
-            
-            <div class="col-sm-12" style="">
-                <h4>Homepage Template</h4>
-                <p>
-                    Credits for the website <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">in this link</a>.
-                </p>
-            </div>
-    
+        <div class="col-md-4 hero-photo-col mt-4 mt-md-0">
+          <img src="assets/img/profile.JPG" class="hero-photo" alt="Badrinath Singhal">
         </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Body content -->
+  <div class="content">
+
+    <!-- News -->
+    <div id="news" class="section">
+      <h2 class="section-title">News</h2>
+      <div class="news-box">
+
+        <div class="news-item">
+          <span class="news-date">Jun 2026</span>
+          <span class="news-text">Paper <a href="projects/adaptive-splat/" target="_blank">AdaptiveSplat</a> accepted at <strong>ECCV 2026</strong>.</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">Apr 2026</span>
+          <span class="news-text">Presented my work at the <a href="https://eecs.iisc.ac.in/EECS2026/" target="_blank">EECS Research Symposium</a> at IISc.</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">Dec 2025</span>
+          <span class="news-text">Organised tutorial on <a href="https://howtobuildworldmodels.github.io/" target="_blank">Generative Models for Content Creation, Reconstruction, and Beyond</a> at <a href="https://icvgip.in/2025/" target="_blank">ICVGIP 2025</a>.</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">Aug 2025</span>
+          <span class="news-text">Grateful to receive the <strong>TCS Research Scholarship</strong>.</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">Aug 2025</span>
+          <span class="news-text">Excited to be selected as a recipient of the <strong>Qualcomm Innovation Fellowship</strong>!</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">Jan 2023</span>
+          <span class="news-text">Started as Senior Machine Learning Engineer at Axera-Tech.</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">Mar 2020</span>
+          <span class="news-text">Joined EmbodyMe as a Machine Learning Scientist.</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">Mar 2020</span>
+          <span class="news-text">Joined Synapsica as a AI Scientist.</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2019</span>
+          <span class="news-text">Paper on Spinal Stenosis Detection accepted at <strong>IJCNN 2019</strong>.</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2018</span>
+          <span class="news-text">Paper on IT2 FCM Algorithm accepted at <strong>FUZZ-IEEE 2018</strong>.</span>
+        </div>
+
+      </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
+    <!-- Publications -->
+    <div id="publications" class="section">
+      <h2 class="section-title">Publications</h2>
+
+      <!-- AdaptiveSplat -->
+      <div class="pub-card">
+        <div class="row align-items-center">
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="pub-thumb">
+              <img src="projects/adaptive-splat/figs/AdaptiveSplat_Teaser.png" alt="AdaptiveSplat teaser">
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <a class="pub-title" href="projects/adaptive-splat/" target="_blank">
+              AdaptiveSplat: Texture-Aware Controllable 3D Gaussian Allocation for Feed-Forward Reconstruction
+            </a>
+            <div class="pub-authors">
+              <strong>Badrinath Singhal</strong>, Srihari K G, Sreehari Iyer, Ankit Dhiman, R. Venkatesh Babu
+            </div>
+            <div class="pub-venue">European Conference on Computer Vision (ECCV), 2026</div>
+            <div class="pub-links">
+              <a href="projects/adaptive-splat/" target="_blank">Project Page</a>
+              <button type="button" data-toggle="collapse" data-target="#collapseAdaptiveSplat" aria-expanded="false">Bibtex</button>
+            </div>
+            <div class="collapse" id="collapseAdaptiveSplat">
+              <div class="bibtex-block">
+<pre>@inproceedings{singhal2026adaptivesplat,
+  title        = {AdaptiveSplat: Texture-Aware Controllable 3D Gaussian Allocation
+                  for Feed-Forward Reconstruction},
+  author       = {Singhal, Badrinath and K G, Srihari and Iyer, Sreehari
+                  and Dhiman, Ankit and Babu, R. Venkatesh},
+  booktitle    = {European Conference on Computer Vision (ECCV)},
+  year         = {2026},
+  organization = {Vision and AI Lab, Indian Institute of Science}
+}</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- IJCNN -->
+      <div class="pub-card">
+        <div class="row align-items-center">
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="pub-thumb">
+              <img src="assets/img/publications/plane_description.jpeg" alt="IJCNN paper">
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <a class="pub-title" href="https://ieeexplore.ieee.org/document/8852085" target="_blank">
+              Spinal Stenosis Detection in MRI using Modular Coordinate Convolutional Attention Networks
+            </a>
+            <div class="pub-authors">
+              Uddeshya Upadhyay, <strong>Badrinath Singhal</strong>, Meenakshi Singh
+            </div>
+            <div class="pub-venue">International Joint Conference on Neural Networks (IJCNN), 2019</div>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/document/8852085" target="_blank">Paper</a>
+              <button type="button" data-toggle="collapse" data-target="#collapseIJCNN" aria-expanded="false">Bibtex</button>
+            </div>
+            <div class="collapse" id="collapseIJCNN">
+              <div class="bibtex-block">
+<pre>@InProceedings{IJCNN,
+  author    = {Uddeshya Upadhyay and Badrinath Singhal and Meenakshi Singh},
+  title     = {Spinal Stenosis Detection in MRI using Modular Coordinate
+               Convolutional Attention Networks},
+  booktitle = {International Joint Conference on Neural Networks (IJCNN)},
+  year      = {2019},
+}</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FUZZ-IEEE -->
+      <div class="pub-card">
+        <div class="row align-items-center">
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="pub-thumb">
+              <img src="assets/img/publications/fuzzy_paper_thumbnail.png" alt="FUZZ-IEEE paper">
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <a class="pub-title" href="https://ieeexplore.ieee.org/document/8491457" target="_blank">
+              Performance Analysis of a Novel IT2 FCM Algorithm
+            </a>
+            <div class="pub-authors">
+              Shashank Huddedar, Mayank Kagliwal, <strong>Badrinath Singhal</strong>, Frank Rhee
+            </div>
+            <div class="pub-venue">IEEE International Conference on Fuzzy Systems (FUZZ-IEEE), 2018</div>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/document/8491457" target="_blank">Paper</a>
+              <button type="button" data-toggle="collapse" data-target="#collapseFUZZ" aria-expanded="false">Bibtex</button>
+            </div>
+            <div class="collapse" id="collapseFUZZ">
+              <div class="bibtex-block">
+<pre>@InProceedings{FUZZ,
+  author    = {Shashank Huddedar and Mayank Kagliwal
+               and Badrinath Singhal and Frank Rhee},
+  title     = {Performance Analysis of a Novel IT2 FCM Algorithm},
+  booktitle = {IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)},
+  year      = {2018},
+}</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /publications -->
+
+    <footer class="site-footer">
+      Template credits: <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">m-niemeyer</a>
+    </footer>
+
+  </div><!-- /content -->
+
+  <script>
+    (function () {
+      const root   = document.documentElement;
+      const btn    = document.getElementById('themeToggle');
+      const icon   = document.getElementById('themeIcon');
+
+      function applyTheme(dark) {
+        if (dark) {
+          root.setAttribute('data-theme', 'dark');
+          icon.className = 'fas fa-sun';
+        } else {
+          root.removeAttribute('data-theme');
+          icon.className = 'fas fa-moon';
+        }
+      }
+
+      // Restore saved preference (default: light)
+      const saved = localStorage.getItem('theme');
+      applyTheme(saved === 'dark');
+
+      btn.addEventListener('click', function () {
+        const isDark = root.getAttribute('data-theme') === 'dark';
+        applyTheme(!isDark);
+        localStorage.setItem('theme', isDark ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
-    

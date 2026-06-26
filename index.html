@@ -477,6 +477,45 @@
 
     .bibtex-block pre { margin: 0; }
 
+    /* ── Teaching ── */
+    .teaching-item {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--row-border);
+      transition: background 0.1s;
+    }
+
+    .teaching-item:first-child { border-top: 1px solid var(--row-border); }
+    .teaching-item:hover { background: var(--hover-bg); }
+
+    .teaching-left { display: flex; align-items: baseline; gap: 10px; }
+
+    .teaching-role {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .teaching-course {
+      font-size: 0.82rem;
+      color: #10b981;
+      font-weight: 600;
+    }
+
+    .teaching-inst {
+      font-size: 0.78rem;
+      color: var(--text-faint);
+    }
+
+    .teaching-year {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-faint);
+      white-space: nowrap;
+    }
+
     /* ── Footer ── */
     .site-footer {
       text-align: center;
@@ -539,6 +578,7 @@
         <a href="#about">About</a>
         <a href="#news">News</a>
         <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
         <button class="theme-toggle" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">
           <i class="fas fa-moon" id="themeIcon"></i>
         </button>
@@ -756,6 +796,30 @@
       </div>
 
     </div><!-- /publications -->
+
+    <!-- Teaching -->
+    <div id="teaching" class="section">
+      <h2 class="section-title">Teaching</h2>
+
+      <div class="teaching-item">
+        <div class="teaching-left">
+          <span class="teaching-role">Teaching Assistant:</span>
+          <a class="teaching-course" href="https://val.cds.iisc.ac.in/DLCV/" target="_blank">DS265: Deep Learning for Computer Vision</a>
+          <span class="teaching-inst">Indian Institute of Science</span>
+        </div>
+        <span class="teaching-year">2026</span>
+      </div>
+
+      <div class="teaching-item">
+        <div class="teaching-left">
+          <span class="teaching-role">Teaching Assistant:</span>
+          <a class="teaching-course" href="https://val.cds.iisc.ac.in/DLCV/" target="_blank">DS265: Deep Learning for Computer Vision</a>
+          <span class="teaching-inst">Indian Institute of Science</span>
+        </div>
+        <span class="teaching-year">2025</span>
+      </div>
+
+    </div><!-- /teaching -->
 
     <footer class="site-footer">
       Template credits: <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">m-niemeyer</a>
